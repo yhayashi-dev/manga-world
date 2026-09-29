@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/Layout.astro';import WorkCard from '../../components/WorkCard.astro';import {catalog,href} from '../../lib/site';
+export function getStaticPaths(){return catalog.collections.map(collection=>({params:{collection:collection.id},props:{collection}}))}
+const {collection}=Astro.props;const works=catalog.works.filter(w=>w.collectionIds.includes(collection.id));
+---
+<Layout title={collection.title}><nav class="breadcrumb" aria-label="パンくず"><a href={href('/')}>ホーム</a><span aria-hidden="true"> / </span><span>{collection.title}</span></nav><header class="page-heading"><p class="eyebrow">世界への入口</p><h1>{collection.title}</h1><p>{collection.description}</p></header>
+{works.length?works.map(work=><WorkCard work={work}/>):<section class="empty-state"><p class="eyebrow">準備中</p><h2>次の物語を、準備しています。</h2><p>{collection.id==='people'?'歴史・神話・叙事詩の原典や資料をもとに、人物と物語をたどるシリーズです。ゲーム作品のキャラクター紹介ではありません。':'案内役のわんこと、哲学や社会のしくみを学ぶシリーズです。'}</p><a href={href('/collections/story/')}>いまは「物語で読む」へ →</a></section>}
+<section class="section"><h2>これから扱いたいテーマ</h2><p class="muted">以下は構想です。完成作品や公開予定日の案内ではありません。</p><ul class="topic-list">{collection.future?.map(x=><li>{x}</li>)}</ul></section></Layout>

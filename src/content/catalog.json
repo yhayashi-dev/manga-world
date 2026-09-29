@@ -1,0 +1,496 @@
+{
+  "collections": [
+    {
+      "id": "story",
+      "title": "物語で読む",
+      "description": "物語の中へ入り、世界の見方に出会う。",
+      "future": [
+        "新約聖書",
+        "ギリシャ神話",
+        "古事記",
+        "哲学史",
+        "歴史物語"
+      ]
+    },
+    {
+      "id": "people",
+      "title": "人物・物語を知る",
+      "description": "その名の向こうにある、歴史と伝承をたどる。",
+      "future": [
+        "アルジュナ",
+        "ギルガメッシュ",
+        "ジャンヌ・ダルク",
+        "レオニダス"
+      ]
+    },
+    {
+      "id": "learn-with-dog",
+      "title": "わんこと学ぶ",
+      "description": "身近な疑問から、社会のしくみを少しずつ。",
+      "future": [
+        "哲学",
+        "経済・財政",
+        "政治・制度",
+        "国際",
+        "宗教比較",
+        "社会制度・ニュース用語"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": "old-testament",
+      "title": "旧約聖書まんが",
+      "collectionIds": [
+        "story"
+      ],
+      "summary": "世界のはじまりから、人々の選択と旅をたどる。",
+      "description": "創世記から始まる、古い物語への入口です。原典の出来事を軸に、人々の表情や情景を漫画として描きます。特定宗教の正誤を主張する作品ではありません。",
+      "topics": [
+        "宗教",
+        "物語",
+        "創世記"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "id": "EP001",
+      "workId": "old-testament",
+      "slug": "001",
+      "order": 1,
+      "title": "はじまり",
+      "arc": "創世記編",
+      "description": "世界のはじまりから、園を出た人々の物語へ。",
+      "productionStatus": "completed_pilot",
+      "publicationStatus": "held",
+      "publishRequested": false,
+      "sourceId": "EP001",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "EP001/P01.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "闇と光、天地の創造、園の二人と木の禁令"
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "EP001/P02.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "園での暮らし、蛇との問答、果実を食べる二人"
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "EP001/P03.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "恥と恐れ、神の問いかけ、園を去る二人"
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "EP001/P04.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "園の外の生活、カインとアベル、献げ物"
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "EP001/P05.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "兄弟の献げ物、カインの怒り、野の出来事"
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "EP001/P06.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "神の問い、カインの行く末、広がる暴力と洪水の予告"
+        }
+      ]
+    },
+    {
+      "id": "EP002",
+      "workId": "old-testament",
+      "slug": "002",
+      "order": 2,
+      "title": "ノアと箱舟",
+      "arc": "創世記編",
+      "description": "荒れた世界で、ノアと家族は大きな箱舟を造り始める。",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "publishRequested": true,
+      "sourceId": "EP002",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "EP002/P01.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "争いの広がる世界と、神とともに歩むノア",
+          "publicFile": "EP002/P01.webp",
+          "publicSha256": "bd9fe632c4787c3adf59245e954565333d9c2f432884667ed1022b5991196b92",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "EP002/P02.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "ノアに伝えられる箱舟の命令と寸法、契約の予告",
+          "publicFile": "EP002/P02.webp",
+          "publicSha256": "f687b5f135e137d611d7b3fe016b488890c34fd2b6e0093dc33471fa0d3d0dd5",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "EP002/P03.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "手、縄、梁、木材を使って巨大な箱舟を造る家族",
+          "publicFile": "EP002/P03.webp",
+          "publicSha256": "868a28d653c52e4aa3e5dde22c5c4d6037ae93811a78e22a533c25b8eb4295a7",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "EP002/P04.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "ノア一家8人と食料の準備、夫妻の短いやり取り",
+          "publicFile": "EP002/P04.webp",
+          "publicSha256": "2a0e0336d47d4c7ae6f7b68ccc6f7eb06dd6a92c3fd65844eedd7b98c81f1c13",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "EP002/P05.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "箱舟へ集まる動物と鳥、内部の備え、入舟へ向かう足元",
+          "publicFile": "EP002/P05.webp",
+          "publicSha256": "bfaba086f26005a2753a7214898e157d464794af4585bee35dcf0bc57dfe837a",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "EP002/P06.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "入舟、閉じる戸、最初の一滴、雨の中の箱舟",
+          "publicFile": "EP002/P06.webp",
+          "publicSha256": "e08870c62cf1f4896d3cd159ca7f6708cfe6a7608af9373cc66c5fd8db4d3c6f",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-09-29"
+      }
+    },
+    {
+      "id": "EP003",
+      "workId": "old-testament",
+      "slug": "003",
+      "order": 3,
+      "title": "大洪水",
+      "arc": "創世記編",
+      "description": "雨の向こうで、箱舟の旅が始まる。",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "publishRequested": true,
+      "sourceId": "EP003",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "EP003/P01.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "増水で浮上する箱舟、内部で荷物と動物を支える家族",
+          "publicFile": "EP003/P01.webp",
+          "publicSha256": "f2ea4931b2cb81a275d8adc7136d190b4943f54b1dd82f513082d842da51e5bf",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "EP003/P02.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "長い雨、山々を覆う水、地上の命の喪失と箱舟内の生存",
+          "publicFile": "EP003/P02.webp",
+          "publicSha256": "53d5d7d2656bb19dfd31c654162bd013eb8f222c4cc8367ed34c943dbf3c6e7f",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "EP003/P03.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "舟内の日々、神が心に留めること、風と雨停止、減水",
+          "publicFile": "EP003/P03.webp",
+          "publicSha256": "8a6a22af4c7f1c0440187c5f8cdcd58667f8da6d409a622e5c2ceaf3f1ed3466",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "EP003/P04.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "山地にとどまる箱舟と、後に姿を現す山々の頂",
+          "publicFile": "EP003/P04.webp",
+          "publicSha256": "76d5e414fee97537c39b7187b1b5e713081b25c28fe78e31a06bf17225743134",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "EP003/P05.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "窓を開くノア、カラス、第一回の鳩の放鳥と帰還",
+          "publicFile": "EP003/P05.webp",
+          "publicSha256": "a84d5a2c22012c7e7f3faaf953f4cf1c58f228ecfd689d0e8606295741b3faf7",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "EP003/P06.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "第二回の鳩とオリーブの葉、七日後の第三回放鳥と不帰還",
+          "publicFile": "EP003/P06.webp",
+          "publicSha256": "241b40d829088788ffb4509ca7e84701b08626f94e911a7085575ae3b18c56ae",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-09-29"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-09-29"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "EP001",
+      "original": "旧約聖書・創世記",
+      "ranges": [
+        {
+          "locator": "1:1–2:25、3:20",
+          "event": "天地と人の創造、園。複数箇所を要約・統合。"
+        },
+        {
+          "locator": "3:1–24",
+          "event": "蛇との問答、果実、神の問い、園からの追放。"
+        },
+        {
+          "locator": "4:1–16",
+          "event": "カインとアベルの献げ物、殺害とその後。"
+        },
+        {
+          "locator": "4:17–26、5章、6:1–8",
+          "event": "人々の広がりと悪の増大、洪水へ続く予告を要約。系譜を全て描くものではない。"
+        }
+      ],
+      "references": [
+        {
+          "title": "USCCB / NABRE 創世記1章",
+          "url": "https://bible.usccb.org/bible/genesis/1",
+          "checked": "2026-09-15（制作時の照合記録）"
+        },
+        {
+          "title": "USCCB / NABRE 創世記2章",
+          "url": "https://bible.usccb.org/bible/genesis/2",
+          "checked": "2026-09-15（制作時の照合記録）"
+        },
+        {
+          "title": "USCCB / NABRE 創世記3章",
+          "url": "https://bible.usccb.org/bible/genesis/3",
+          "checked": "2026-09-15（制作時の照合記録）"
+        },
+        {
+          "title": "Bible Gateway / KJV 創世記4章・6章",
+          "url": "https://www.biblegateway.com/passage/?search=Genesis+4%3BGenesis+6&version=KJV",
+          "checked": "2026-09-15（制作時の照合記録）"
+        }
+      ],
+      "textNote": "完成パイロットの日本語底本・生成時入力・公開利用条件は未確認です。画像の誤記訂正は行いましたが、本文の由来が確認できたという意味ではありません。以下の資料は出来事の照合先であり、画像内日本語の引用元と断定しません。",
+      "notes": [
+        "人物の外見、衣服、園の門、光の中の神の人型などは漫画上の視覚表現です。神の容姿を原典が具体的に定めたという意味ではありません。",
+        "原典ではカインが兄、アベルが弟です。公開候補画像では逆になっていた呼称を訂正しています。",
+        "第1ページの「地があった」を「光があった」へ、末尾の次話名を「ノアと箱舟」へ訂正しています。",
+        "原典の省略・統合や、果実の形、表情・構図・情景の追加を含みます。専門家による原語校訂済みという意味ではありません。",
+        "「愛されなかった」という心理の説明は漫画上の解釈です。原典は献げ物と人物が受け入れられたことを語ります。",
+        "カインの物語では、原典にしるしによる保護、居住、家族も記されます（創世記4:15–17）。漫画はその一部を省略しており、生涯孤独だったと断定するものではありません。",
+        "追放場面を圧縮・反復しています。創世記3:24では命の木への道が守られると記されます。園の門や守護者の外観は漫画上の表現です。"
+      ]
+    },
+    {
+      "id": "EP002",
+      "original": "旧約聖書・創世記",
+      "ranges": [
+        {
+          "locator": "6:5–13",
+          "event": "人間社会の悪、ノア、神の決定。"
+        },
+        {
+          "locator": "6:14–16",
+          "event": "箱舟、木材と瀝青、長さ300・幅50・高さ30キュビト、三層と入口・上部構造。"
+        },
+        {
+          "locator": "6:18–22",
+          "event": "契約の予告、家族と生き物、食料、命令に従うノア。"
+        },
+        {
+          "locator": "7:1–5",
+          "event": "清い獣・それ以外の獣・鳥の区別、雨の予告。"
+        },
+        {
+          "locator": "7:6–16",
+          "event": "600歳のノア、入舟、生き物、雨の開始、主が戸を閉ざすこと。"
+        }
+      ],
+      "references": [
+        {
+          "title": "World English Bible Classic 創世記6章",
+          "url": "https://ebible.org/eng-web/GEN06.htm",
+          "checked": "2026-09-28（制作時の照合記録）"
+        },
+        {
+          "title": "World English Bible Classic 創世記7章",
+          "url": "https://ebible.org/eng-web/GEN07.htm",
+          "checked": "2026-09-28（制作時の照合記録）"
+        },
+        {
+          "title": "Mechon-Mamre ヘブライ語・並列英訳 創世記6章",
+          "url": "https://mechon-mamre.org/p/pt/pt0106.htm",
+          "checked": "2026-09-28（制作時の照合記録）"
+        },
+        {
+          "title": "Mechon-Mamre ヘブライ語・並列英訳 創世記7章",
+          "url": "https://mechon-mamre.org/p/pt/pt0107.htm",
+          "checked": "2026-09-28（制作時の照合記録）"
+        }
+      ],
+      "textNote": "発言内容を照合したうえで漫画用の現代日本語に再構成しています。特定の現代日本語訳の逐語引用ではありません。英訳間の出来事・主語の確認であり、原語写本の校合ではありません。",
+      "notes": [
+        "清い動物と鳥について「七つがい」とする読みを採用しています。「すべて二頭ずつ」と一括りにはしません。訳や解釈による数の表現差があります。",
+        "木材名の樹種を確定せず、上部の採光部の形も漫画上のデザインです。キュビトを一つの現代単位へ換算して断定していません。",
+        "ノア一家8人という関係は本文に基づきます。家族の顔・衣装、建造の具体的な動作、夫妻の短い会話は漫画上の追加です。",
+        "ゾウやキリンなどの選択・群れの配置は視覚表現であり、原典の場所の動物相を断定しません。",
+        "戸から一滴へ進む編集は漫画演出です。主が閉ざしたという出来事と、厳密なコマ間の時間順の主張を区別します。",
+        "この掲載版では不要な小文字と、建造場面の吹き出し話者の示し方を訂正しています。制作原版は保存しています。"
+      ]
+    },
+    {
+      "id": "EP003",
+      "original": "旧約聖書・創世記",
+      "ranges": [
+        {
+          "locator": "7:17–23",
+          "event": "増水と箱舟の浮上、山々を覆う水、地上の命の喪失と箱舟内の生存。"
+        },
+        {
+          "locator": "7:24–8:3",
+          "event": "長く続く水、神がノアと生き物を心に留めること、風、雨の停止と減水。"
+        },
+        {
+          "locator": "8:4–5",
+          "event": "アララトの山地にとどまる箱舟、後に現れる山々の頂。"
+        },
+        {
+          "locator": "8:6–9",
+          "event": "窓を開くノア、カラス、第一回の鳩の放鳥と帰還。"
+        },
+        {
+          "locator": "8:10–12",
+          "event": "七日後の第二回の鳩とオリーブの葉、さらに七日後の第三回の鳩の不帰還。"
+        }
+      ],
+      "references": [
+        {
+          "title": "World English Bible Classic 創世記7章",
+          "url": "https://ebible.org/eng-web/GEN07.htm",
+          "checked": "2026-09-28（制作時の照合記録を継承）"
+        },
+        {
+          "title": "World English Bible Classic 創世記8章",
+          "url": "https://ebible.org/eng-web/GEN08.htm",
+          "checked": "2026-09-28（制作時の照合記録を継承）"
+        },
+        {
+          "title": "Mechon-Mamre ヘブライ語・並列英訳 創世記7章",
+          "url": "https://mechon-mamre.org/p/pt/pt0107.htm",
+          "checked": "2026-09-28（制作時の照合記録を継承）"
+        },
+        {
+          "title": "Mechon-Mamre ヘブライ語・並列英訳 創世記8章",
+          "url": "https://mechon-mamre.org/p/pt/pt0108.htm",
+          "checked": "2026-09-28（制作時の照合記録を継承）"
+        }
+      ],
+      "notes": [
+        "この話は創世記7:17〜8:12を扱い、鳩が戻らなくなる場面で区切ります。乾燥の確認、下船、祭壇、契約、虹は次の範囲に残しています。",
+        "雨の四十日と水の百五十日を単純に足した日数として説明していません。窓を開ける前の「四十日の後」や、鳩の放鳥の間の二度の七日も区別しています。",
+        "「アララトの山地」とし、特定の一峰や現代の山の外観を断定していません。",
+        "カラスの後に鳩を放ちます。鳩は第一回には戻り、第二回には夕方にオリーブの葉を持って戻り、第三回には戻りません。",
+        "箱舟内部の日常動作や表情、ノアの「手を貸してくれ。」、具体的な山地・水面・窓の形、鳥の色、光や天候の細かな描き方には漫画上の演出が含まれます。"
+      ],
+      "textNote": "原典の出来事を照合し、漫画用の現代日本語として独自に要約・再構成しています。特定の現代日本語訳の逐語引用ではありません。英訳による出来事の確認を含みますが、原語写本の専門的校合を行ったものではありません。"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+---
+import {href,workPath,catalog,readable,isLocal,pageUrl,coverForWork,episodesFor} from '../lib/site';
+const {work}=Astro.props;
+const cover=coverForWork(work.id);const count=episodesFor(work.id).filter(readable).length;const labels=work.collectionIds.map((id:string)=>catalog.collections.find(c=>c.id===id)?.title).join(" / ");
+---
+<a class="work-card" href={href(workPath(work.id))}>
+ <div class="work-art">{cover?<img src={pageUrl(cover.episode,cover.page)} alt="" width={cover.page.width} height={cover.page.height} loading="lazy"/>:<span aria-hidden="true">{labels}</span>}</div>
+ <div class="work-copy"><p class="eyebrow">{labels}</p><h2>{work.title}</h2><p>{work.summary}</p><p class="meta">{cover?(isLocal?`${count}話をローカルで読む`:`${count}話 公開中`):'公開準備中'}<span aria-hidden="true"> →</span></p></div>
+</a>

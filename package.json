@@ -1,0 +1,34 @@
+{
+  "name": "manga-de-hiraku-sekai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "tsx scripts/run.ts dev local",
+    "build": "tsx scripts/run.ts build public",
+    "build:local": "tsx scripts/run.ts build local",
+    "preview:local": "tsx scripts/serve.ts .local-dist 4321",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "astro check",
+    "validate": "tsx scripts/validate.ts",
+    "import:local": "tsx scripts/import-assets.ts",
+    "test:browser": "tsx scripts/browser-check.ts",
+    "audit:source": "tsx scripts/audit-public-source.ts",
+    "verify:production": "tsx scripts/verify-production.ts"
+  },
+  "dependencies": {
+    "astro": "7.3.5",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/node": "24.19.0",
+    "playwright": "1.63.0",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@11.19.0"
+}

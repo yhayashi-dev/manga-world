@@ -1,0 +1,15 @@
+---
+import '../styles/global.css';
+import {href,isLocal,seo} from '../lib/site';
+const {title,description='物語と学びの漫画サイト。物語をたどり、世界と社会を知る入口に。',reader=false,frontmatter}=Astro.props;
+const canonical=seo.indexable?new URL(Astro.url.pathname,seo.root).href:undefined;
+const notFound=Astro.props.noindex===true;
+const pageTitle=title||frontmatter?.title||'漫画でひらく世界';
+---
+<!doctype html><html lang="ja"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content={description}/><meta name="robots" content={seo.indexable&&!notFound?"index, follow":"noindex, nofollow"}/>{canonical&&!notFound&&<link rel="canonical" href={canonical}/> }<title>{pageTitle==='漫画でひらく世界'?pageTitle:`${pageTitle} | 漫画でひらく世界`}</title></head>
+<body><a class="skip" href="#main">本文へ移動</a>
+{isLocal&&<div class="preview-band">ローカル検証版 · 公開前の制作画像を含みます</div>}
+<header class="site-header"><a class="brand" href={href('/')}><span class="brand-symbol" aria-hidden="true">世</span><span>漫画でひらく世界<small>物語と学びの漫画サイト</small></span></a><nav aria-label="メイン"><a href={href('/works/')}>作品一覧</a><a href={href('/about/')}>このサイトについて</a></nav></header>
+<main id="main" class:list={['main',{reader}]} tabindex="-1"><slot/></main>
+<footer class="site-footer"><div><strong>漫画でひらく世界</strong><p>物語から、少しずつ世界を知る。</p></div><nav aria-label="フッター"><a href={href('/editorial/')}>制作・出典方針</a><a href={href('/privacy/')}>プライバシー</a><a href={href('/works/')}>作品一覧</a></nav></footer>
+</body></html>

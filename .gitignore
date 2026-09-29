@@ -1,0 +1,25 @@
+# Public repository allowlist. Internal data remains excluded.
+/*
+!/.gitignore
+!/package.json
+!/pnpm-lock.yaml
+!/pnpm-workspace.yaml
+!/astro.config.mjs
+!/tsconfig.json
+!/src/
+!/tests/
+!/scripts/
+!/release-assets/
+!/PUBLIC_README.md
+/scripts/*
+!/scripts/run.ts
+!/scripts/audit-output.ts
+!/scripts/validate.ts
+!/scripts/audit-public-source.ts
+
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/pages.yml
+!/scripts/verify-production.ts

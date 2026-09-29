@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {verifyPublication} from '../src/lib/publication';
+import {seoConfig} from '../src/lib/seo';
+import catalog from '../src/content/catalog.json';
+import manifest from '../src/content/publication-manifest.json';
+test('approved EP002/3 bind to their exact public asset hashes',()=>{assert.equal(verifyPublication(catalog.episodes as any,manifest).length,12)});
+test('held selection rejected even with manifest',()=>{const c=structuredClone(catalog.episodes);c[0].publishRequested=true;assert.throws(()=>verifyPublication(c as any,manifest),/held/)});
+test('catalog cannot swap approved image hash',()=>{const c=structuredClone(catalog.episodes) as any;c[1].pages[0].publicSha256='0'.repeat(64);assert.throws(()=>verifyPublication(c,manifest),/mismatch/)});
+test('unapproved manifest and extra episode rejected',()=>{assert.throws(()=>verifyPublication(catalog.episodes as any,{...manifest,approved:false}));assert.throws(()=>verifyPublication(catalog.episodes as any,{...manifest,assets:[...manifest.assets,{...manifest.assets[0],episode:'EP001'}]}))});
+test('unknown URL and local remain noindex; confirmed origin supports repo base',()=>{assert.equal(seoConfig(false,undefined,'/').indexable,false);assert.equal(seoConfig(true,'https://example.test','/comic/').indexable,false);assert.equal(seoConfig(false,'https://example.test','/comic/').root,'https://example.test/comic/');assert.throws(()=>seoConfig(false,'https://example.test/path','/'))});

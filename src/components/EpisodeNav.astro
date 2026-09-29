@@ -1,0 +1,11 @@
+---
+import {episodesFor,readable,href,episodePath,workPath} from '../lib/site';
+import {unavailableLabel} from '../lib/catalog';
+const {episode}=Astro.props;
+const eps=episodesFor(episode.workId);const i=eps.findIndex(e=>e.id===episode.id);const previous=eps[i-1];const next=eps[i+1];
+---
+<nav class="episode-nav" aria-label="話の移動">
+ <div>{previous&&readable(previous)?<a rel="prev" href={href(episodePath(previous))}><small>← 前の話</small>第{previous.order}話 {previous.title}</a>:previous?<a href={href(`${workPath(previous.workId)}#episode-${previous.slug}`)}><small>前の話</small>第{previous.order}話 {previous.title}（{unavailableLabel(previous)}）</a>:<span class="quiet"><small>前の話</small>最初の話です</span>}</div>
+ <div>{next?(readable(next)?<a rel="next" href={href(episodePath(next))}><small>次の話 →</small>第{next.order}話 {next.title}</a>:<a href={href(`${workPath(next.workId)}#episode-${next.slug}`)}><small>次の話</small>第{next.order}話 {next.title}（{unavailableLabel(next)}）</a>):<span class="quiet">続きは準備中です</span>}</div>
+</nav>
+<div class="reader-links"><a href={href(workPath(episode.workId))}>この作品の話一覧へ</a><a href={href('/works/')}>作品一覧へ戻る</a><a class="text-link" href={href(`${episodePath(episode)}sources/`)}>原典・出典を見る →</a></div>

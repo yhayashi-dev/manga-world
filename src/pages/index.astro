@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import WorkCard from '../components/WorkCard.astro';
+import {catalog,href,workPath,isLocal} from '../lib/site';
+---
+<Layout title="漫画でひらく世界">
+<section class="intro"><p class="eyebrow">物語と学びの漫画サイト</p><h1>物語の先に、<br/>世界がひらく。</h1><p class="intro-copy">遠い時代の物語も、いまの社会のしくみも。<br class="desktop-break"/>漫画を入口に、少しずつ知っていく。</p><a class="button" href={href(workPath('old-testament'))}>旧約聖書まんがを読む <span aria-hidden="true">→</span></a><p class="small muted">{isLocal?'第1〜3話をローカルで確認できます。':'旧約聖書まんが 第2話・第3話をお読みいただけます。'}</p></section>
+<section class="section"><div class="section-heading"><div><p class="eyebrow">最初の物語</p><h2>いま、読める作品</h2></div><a href={href('/works/')}>作品一覧 →</a></div>{catalog.works.map(work=><WorkCard work={work}/>)}</section>
+<section class="section"><p class="eyebrow">3つの入口</p><h2>どこから、ひらこう。</h2><div class="entrances">{catalog.collections.map((c,i)=><a class="entrance" href={href(`/collections/${c.id}/`)}><span class="entrance-number">0{i+1}</span><h3>{c.title}</h3><p>{c.description}</p><span class="meta">{i===0?'旧約聖書から読む':'これからのテーマ'} →</span></a>)}</div></section>
+<section class="editorial-note"><h2>物語を楽しむ。<br/>出典にも、立ち返る。</h2><div><p>宗教、神話、歴史、哲学、社会。ひとつの見方を押しつけず、知るための入口をつくります。</p><p>会話・表情・情景等には漫画上の演出が含まれます。各話の下から、原典や参照資料を確認できます。</p><a href={href('/editorial/')}>制作・出典方針を読む →</a></div></section>
+</Layout>

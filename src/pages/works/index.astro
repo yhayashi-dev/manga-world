@@ -1,0 +1,4 @@
+---
+import Layout from '../../layouts/Layout.astro';import WorkCard from '../../components/WorkCard.astro';import {catalog,href} from '../../lib/site';
+---
+<Layout title="作品一覧"><header class="page-heading"><p class="eyebrow">LIBRARY</p><h1>作品一覧</h1><p>物語の中へ。気になる世界から。</p></header>{catalog.works.map(work=><WorkCard work={work}/>)}<section class="section"><h2>入口から探す</h2><ul class="link-list">{catalog.collections.map(c=><li><a href={href(`/collections/${c.id}/`)}>{c.title} →</a></li>)}</ul></section></Layout>
