@@ -11,5 +11,5 @@ const pageTitle=title||frontmatter?.title||'漫画でひらく世界';
 {isLocal&&<div class="preview-band">ローカル検証版 · 公開前の制作画像を含みます</div>}
 <header class="site-header"><a class="brand" href={href('/')}><span class="brand-symbol" aria-hidden="true">世</span><span>漫画でひらく世界<small>物語と学びの漫画サイト</small></span></a><nav aria-label="メイン"><a href={href('/works/')}>作品一覧</a><a href={href('/about/')}>このサイトについて</a></nav></header>
 <main id="main" class:list={['main',{reader}]} tabindex="-1"><slot/></main>
-<footer class="site-footer"><div><strong>漫画でひらく世界</strong><p>物語から、少しずつ世界を知る。</p></div><nav aria-label="フッター"><a href={href('/editorial/')}>制作・出典方針</a><a href={href('/privacy/')}>プライバシー</a><a href={href('/works/')}>作品一覧</a></nav></footer>
+<footer class="site-footer"><div><strong>漫画でひらく世界</strong><p>物語から、少しずつ世界を知る。</p></div><nav aria-label="フッター"><a href={href('/editorial/')}>制作・出典方針</a><a href={href('/privacy/')}>プライバシー</a><a href={href('/works/')}>作品一覧</a><a href="https://yhayashi-dev.github.io/kurashi-seido-portal/" rel="external noreferrer">くらしと制度の入口へ戻る</a></nav></footer>
 </body></html>
