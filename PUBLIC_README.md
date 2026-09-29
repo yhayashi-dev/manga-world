@@ -8,6 +8,8 @@ Node.js 22.12以上、pnpm。`pnpm install --frozen-lockfile` → `pnpm validate
 
 公開URL確定後に `MANGA_SITE`（HTTPS origin）、`MANGA_BASE`（`/repo/` または `/`）を設定します。未設定の候補ビルドはnoindexを保持し、架空canonical/sitemapを出しません。ローカル検証ビルドは常にnoindexです。
 
-GitHub Pages向けの公開workflowを用意しています。`Verified Pages release` の手動実行で検証済みdistだけを配信します。EP001は非公開。EP002/EP003は承認済み候補ですが、実デプロイ完了まではデータ上readyを維持します。
+GitHub Pages向けの公開workflowを用意しています。`Verified Pages release` の手動実行で検証済みdistだけを配信します。EP001は非公開。EP002/EP003はGitHub Pagesへ公開済みです。
 
 本番設定：`MANGA_SITE=https://yhayashi-dev.github.io`、`MANGA_BASE=/manga-world/`。`pnpm verify:production` は実URLを用いたSEO・内部リンク・公開画像12枚のhash・held除外を確認します。
+
+公開サイト：https://yhayashi-dev.github.io/manga-world/

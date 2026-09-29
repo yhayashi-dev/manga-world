@@ -126,7 +126,7 @@
       "arc": "創世記編",
       "description": "荒れた世界で、ノアと家族は大きな箱舟を造り始める。",
       "productionStatus": "production_complete",
-      "publicationStatus": "ready",
+      "publicationStatus": "published",
       "publishRequested": true,
       "sourceId": "EP002",
       "pages": [
@@ -229,7 +229,7 @@
       "arc": "創世記編",
       "description": "雨の向こうで、箱舟の旅が始まる。",
       "productionStatus": "production_complete",
-      "publicationStatus": "ready",
+      "publicationStatus": "published",
       "publishRequested": true,
       "sourceId": "EP003",
       "pages": [
