@@ -1,4 +1,4 @@
 import {readFileSync} from 'node:fs';
 import {z} from 'zod';
 const schema=z.object({version:z.literal(1),publicApproved:z.literal(false),assets:z.array(z.object({episode:z.string().regex(/^EP[0-9]+$/),page:z.string().regex(/^P[0-9]+$/),file:z.string().regex(/^v[0-9]+\/EP[0-9]+\/P[0-9]+\.webp$/),sha256:z.string().regex(/^[a-f0-9]{64}$/),width:z.number().int().positive(),height:z.number().int().positive(),bytes:z.number().int().positive(),state:z.enum(['compression-only','corrected-candidate']),pixelIdentical:z.boolean()}))});
-export function reviewAssets(){const m=schema.parse(JSON.parse(readFileSync('private/review-manifest.json','utf8')));const ids=m.assets.map(a=>a.episode+'/'+a.page);if(new Set(ids).size!==ids.length)throw new Error('Duplicate review asset');return m.assets;}
+export function reviewAssets(){const m=schema.parse(JSON.parse(readFileSync('private/review-manifest-remake-v001.json','utf8')));const ids=m.assets.map(a=>a.episode+'/'+a.page);if(new Set(ids).size!==ids.length)throw new Error('Duplicate review asset');return m.assets;}

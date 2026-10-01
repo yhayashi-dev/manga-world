@@ -10,7 +10,7 @@ export const GET:APIRoute=async({props})=>{
  const real=await realpath(file);if(!real.startsWith(root+sep)||(await lstat(file)).isSymbolicLink())throw new Error('Unsafe asset path');
  const b=await readFile(file);const hash=createHash('sha256').update(b).digest('hex');
  let expected=p.publicSha256;
- if(isLocal){const m=JSON.parse(await readFile('private/import-manifest.json','utf8'));expected=m.assets.find((a:any)=>a.copied_file===`private/local-assets/${p.localFile}`)?.sha256;}
+ if(isLocal){const m=JSON.parse(await readFile('private/import-manifest-remake-v001.json','utf8'));expected=m.assets.find((a:any)=>a.copied_file===`private/local-assets/${p.localFile}`)?.sha256;}
  if(hash!==expected||b.readUInt32BE(16)!==p.width||b.readUInt32BE(20)!==p.height)throw new Error('Asset integrity mismatch');
  return new Response(new Uint8Array(b),{headers:{'Content-Type':'image/png'}});
 };

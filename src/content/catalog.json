@@ -61,61 +61,129 @@
       "order": 1,
       "title": "はじまり",
       "arc": "創世記編",
-      "description": "世界のはじまりから、園を出た人々の物語へ。",
-      "productionStatus": "completed_pilot",
-      "publicationStatus": "held",
-      "publishRequested": false,
+      "description": "天地創造からエデン、カインとアベル、世代を経てノアへ。創世記1〜5章の主な場面を描く全8ページ。",
+      "productionStatus": "production_complete",
+      "publicationStatus": "published",
+      "publishRequested": true,
       "sourceId": "EP001",
       "pages": [
         {
           "id": "P01",
           "order": 1,
-          "localFile": "EP001/P01.png",
+          "localFile": "EP001-REMAKE-V001/P01.png",
           "width": 1055,
           "height": 1491,
-          "alt": "闇と光、天地の創造、園の二人と木の禁令"
+          "alt": "天地創造と第七日の休み",
+          "publicFile": "EP001/P01.webp",
+          "publicSha256": "fbdc3d092e700905674b4bb6914108914e0796b2e7fbc4893df9d0660065f6f3",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
         },
         {
           "id": "P02",
           "order": 2,
-          "localFile": "EP001/P02.png",
-          "width": 1055,
-          "height": 1491,
-          "alt": "園での暮らし、蛇との問答、果実を食べる二人"
+          "localFile": "EP001-REMAKE-V001/P02.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "人と園、禁令、出会い",
+          "publicFile": "EP001/P02.webp",
+          "publicSha256": "f6f837f7bac7c3de73b6ff642f5232dac382ec3cfefbb84da4a64c35a963cb78",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
         },
         {
           "id": "P03",
           "order": 3,
-          "localFile": "EP001/P03.png",
+          "localFile": "EP001-REMAKE-V001/P03.png",
           "width": 1055,
           "height": 1491,
-          "alt": "恥と恐れ、神の問いかけ、園を去る二人"
+          "alt": "蛇の問い、実を食べる二人、葉の腰覆い",
+          "publicFile": "EP001/P03.webp",
+          "publicSha256": "a0a3564f13fb5232f97eb60ac16f5fa3c23aa81726510e28b628532676854b7c",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
         },
         {
           "id": "P04",
           "order": 4,
-          "localFile": "EP001/P04.png",
+          "localFile": "EP001-REMAKE-V001/P04.png",
           "width": 1055,
           "height": 1491,
-          "alt": "園の外の生活、カインとアベル、献げ物"
+          "alt": "神の問いと告知、皮衣、エデンからの追放",
+          "publicFile": "EP001/P04.webp",
+          "publicSha256": "f377a2fc235a19de557f86747ef3a9883ff65143883cf5ba5c3c7169f918c299",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
         },
         {
           "id": "P05",
           "order": 5,
-          "localFile": "EP001/P05.png",
+          "localFile": "EP001-REMAKE-V001/P05.png",
           "width": 1055,
           "height": 1491,
-          "alt": "兄弟の献げ物、カインの怒り、野の出来事"
+          "alt": "兄カインと弟アベル、献げ物",
+          "publicFile": "EP001/P05.webp",
+          "publicSha256": "ca42f9f6812d9c55dc24b011f20bd8deea1337735232591a794da7d4542c3d42",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
         },
         {
           "id": "P06",
           "order": 6,
-          "localFile": "EP001/P06.png",
+          "localFile": "EP001-REMAKE-V001/P06.png",
           "width": 1055,
           "height": 1491,
-          "alt": "神の問い、カインの行く末、広がる暴力と洪水の予告"
+          "alt": "神の警告、弟の殺害、沈黙",
+          "publicFile": "EP001/P06.webp",
+          "publicSha256": "ebed320f46d7075b013e4d831ef905a1dd3dd783f7e88bb0bcdc539d914bcd4c",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
+        },
+        {
+          "id": "P07",
+          "order": 7,
+          "localFile": "EP001-REMAKE-V001/P07.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "カインへの結果としるし、その後の家族と町",
+          "publicFile": "EP001/P07.webp",
+          "publicSha256": "ae51710c30f52394571b14d6a55b78304176a2245a7998938ab1eb24cd482c88",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
+        },
+        {
+          "id": "P08",
+          "order": 8,
+          "localFile": "EP001-REMAKE-V001/P08.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "セトから世代を重ね、ノアの時代へ",
+          "publicFile": "EP001/P08.webp",
+          "publicSha256": "54bac57a550ea91cb019a6ff5f8456974c9874050237c79af98eab94810c2883",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-01"
+          }
         }
-      ]
+      ],
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-01"
+      }
     },
     {
       "id": "EP002",
@@ -327,56 +395,94 @@
   "sources": [
     {
       "id": "EP001",
-      "original": "旧約聖書・創世記",
+      "original": "創世記1:1〜5:32（選択叙述）",
       "ranges": [
         {
-          "locator": "1:1–2:25、3:20",
-          "event": "天地と人の創造、園。複数箇所を要約・統合。"
+          "locator": "創世記1:1〜2:3",
+          "event": "創造と第七日の休み"
         },
         {
-          "locator": "3:1–24",
-          "event": "蛇との問答、果実、神の問い、園からの追放。"
+          "locator": "創世記2:4〜25",
+          "event": "人と園、禁令、出会い"
         },
         {
-          "locator": "4:1–16",
-          "event": "カインとアベルの献げ物、殺害とその後。"
+          "locator": "創世記3:1〜24",
+          "event": "誘惑と選択、告知、皮衣、追放"
         },
         {
-          "locator": "4:17–26、5章、6:1–8",
-          "event": "人々の広がりと悪の増大、洪水へ続く予告を要約。系譜を全て描くものではない。"
+          "locator": "創世記4:1〜17",
+          "event": "カインとアベル、献げ物、警告、殺害、しるし、後日譚"
+        },
+        {
+          "locator": "創世記4:25〜26／5:1〜32",
+          "event": "セトから多世代を経てノアへ"
         }
       ],
       "references": [
         {
-          "title": "USCCB / NABRE 創世記1章",
-          "url": "https://bible.usccb.org/bible/genesis/1",
-          "checked": "2026-09-15（制作時の照合記録）"
+          "title": "World English Bible Classic 創世記1章",
+          "url": "https://ebible.org/eng-web/GEN01.htm",
+          "checked": "2026-09-30"
         },
         {
-          "title": "USCCB / NABRE 創世記2章",
-          "url": "https://bible.usccb.org/bible/genesis/2",
-          "checked": "2026-09-15（制作時の照合記録）"
+          "title": "World English Bible Classic 創世記2章",
+          "url": "https://ebible.org/eng-web/GEN02.htm",
+          "checked": "2026-09-30"
         },
         {
-          "title": "USCCB / NABRE 創世記3章",
-          "url": "https://bible.usccb.org/bible/genesis/3",
-          "checked": "2026-09-15（制作時の照合記録）"
+          "title": "World English Bible Classic 創世記3章",
+          "url": "https://ebible.org/eng-web/GEN03.htm",
+          "checked": "2026-09-30"
         },
         {
-          "title": "Bible Gateway / KJV 創世記4章・6章",
-          "url": "https://www.biblegateway.com/passage/?search=Genesis+4%3BGenesis+6&version=KJV",
-          "checked": "2026-09-15（制作時の照合記録）"
+          "title": "World English Bible Classic 創世記4章",
+          "url": "https://ebible.org/eng-web/GEN04.htm",
+          "checked": "2026-09-30"
+        },
+        {
+          "title": "World English Bible Classic 創世記5章",
+          "url": "https://ebible.org/eng-web/GEN05.htm",
+          "checked": "2026-09-30"
+        },
+        {
+          "title": "World English Bible Classic 創世記6章",
+          "url": "https://ebible.org/eng-web/GEN06.htm",
+          "checked": "2026-09-30"
+        },
+        {
+          "title": "Mechon-Mamre 創世記1章（併記英訳対照）",
+          "url": "https://mechon-mamre.org/p/pt/pt0101.htm",
+          "checked": "2026-09-30"
+        },
+        {
+          "title": "Mechon-Mamre 創世記2章（併記英訳対照）",
+          "url": "https://mechon-mamre.org/p/pt/pt0102.htm",
+          "checked": "2026-09-30"
+        },
+        {
+          "title": "Mechon-Mamre 創世記3章（併記英訳対照）",
+          "url": "https://mechon-mamre.org/p/pt/pt0103.htm",
+          "checked": "2026-09-30"
+        },
+        {
+          "title": "Mechon-Mamre 創世記4章（併記英訳対照）",
+          "url": "https://mechon-mamre.org/p/pt/pt0104.htm",
+          "checked": "2026-09-30"
+        },
+        {
+          "title": "Mechon-Mamre 創世記5章（併記英訳対照）",
+          "url": "https://mechon-mamre.org/p/pt/pt0105.htm",
+          "checked": "2026-09-30"
         }
       ],
-      "textNote": "完成パイロットの日本語底本・生成時入力・公開利用条件は未確認です。画像の誤記訂正は行いましたが、本文の由来が確認できたという意味ではありません。以下の資料は出来事の照合先であり、画像内日本語の引用元と断定しません。",
+      "textNote": "創世記1〜5章の主な場面を選んで再構成しています。会話は本作の日本語による要約・再構成で、特定の現代日本語訳からの引用ではありません。外見・表情・情景には漫画上の演出を含みます。系譜や一部の場面は省略しています。創世記6:1〜4は本話では扱っていません。",
       "notes": [
-        "人物の外見、衣服、園の門、光の中の神の人型などは漫画上の視覚表現です。神の容姿を原典が具体的に定めたという意味ではありません。",
-        "原典ではカインが兄、アベルが弟です。公開候補画像では逆になっていた呼称を訂正しています。",
-        "第1ページの「地があった」を「光があった」へ、末尾の次話名を「ノアと箱舟」へ訂正しています。",
-        "原典の省略・統合や、果実の形、表情・構図・情景の追加を含みます。専門家による原語校訂済みという意味ではありません。",
-        "「愛されなかった」という心理の説明は漫画上の解釈です。原典は献げ物と人物が受け入れられたことを語ります。",
-        "カインの物語では、原典にしるしによる保護、居住、家族も記されます（創世記4:15–17）。漫画はその一部を省略しており、生涯孤独だったと断定するものではありません。",
-        "追放場面を圧縮・反復しています。創世記3:24では命の木への道が守られると記されます。園の門や守護者の外観は漫画上の表現です。"
+        "本話は原典から再構成した新版です。会話の内容と、漫画上の具体的な構図・動作・外見を区別しています。",
+        "蛇の悪魔との同定、果実の種類、献げ物が受け入れられた理由、殺害の凶器、カインのしるしの形・位置、妻の出自は独自に確定していません。",
+        "創世記3:16の夫が女を支配するという叙述は、女へ告げられた内容の要約として扱い、夫への命令や現代の性別秩序への推奨に置き換えていません。",
+        "ケルビムの具体的な姿・人数は確定せず、命の木への道が守られたことを描いています。",
+        "人物名・寿命の列挙や一部の出来事を省略しています。カインの系譜とセトからノアへ続く系譜は区別しています。",
+        "参照英訳の出来事・発言内容を照合しています。原語の写本校合や専門家による校閲を行ったという意味ではありません。"
       ]
     },
     {
