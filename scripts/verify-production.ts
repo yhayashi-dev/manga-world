@@ -4,7 +4,7 @@ import {validateCatalog} from '../src/lib/catalog';import {verifyPublication} fr
 const root=resolve('dist');const data=validateCatalog(JSON.parse(await readFile('src/content/catalog.json','utf8')));const assets=verifyPublication(data.episodes,JSON.parse(await readFile('src/content/publication-manifest.json','utf8')));
 const seo=seoConfig(false,process.env.MANGA_SITE,process.env.MANGA_BASE||'/');assert.ok(seo.indexable&&seo.root,'Real release URL required');const base=new URL(seo.root!).pathname;const origin=new URL(seo.root!).origin;
 const files:string[]=[];async function walk(d:string){for(const f of await readdir(d,{withFileTypes:true})){assert.equal(f.isSymbolicLink(),false);if(f.isDirectory())await walk(join(d,f.name));else files.push(join(d,f.name))}}await walk(root);
-const imageFiles=files.filter(f=>/\.(png|jpe?g|webp|gif|avif)$/.test(f));assert.equal(imageFiles.length,assets.length);assert.equal(assets.length,27);assert.deepEqual([...new Set(assets.map(a=>a.episode))].sort(),['EP001','EP002','EP003','EP004']);
+const imageFiles=files.filter(f=>/\.(png|jpe?g|webp|gif|avif)$/.test(f));assert.equal(imageFiles.length,assets.length);assert.equal(assets.length,37);assert.deepEqual([...new Set(assets.map(a=>a.episode))].sort(),['ARJUNA','EP001','EP002','EP003','EP004']);
 for(const a of assets){const b=await readFile(join(root,'comics',a.file));assert.equal(createHash('sha256').update(b).digest('hex'),a.sha256)}
 const htmlFiles=files.filter(f=>f.endsWith('.html'));let links=0;
 for(const file of htmlFiles){const rel=relative(root,file);const text=await readFile(file,'utf8');assert.ok(!/\/Users\/|PRIVATE_ASSET|BEGIN (?:RSA |OPENSSH )?PRIVATE KEY|ghp_[A-Za-z0-9]{30,}/.test(text));assert.ok(!/class="preview-band"/.test(text));
@@ -14,6 +14,7 @@ for(const file of htmlFiles){const rel=relative(root,file);const text=await read
  assert.ok(!rel.includes('episodes/005/'));
 }
 for(const id of ['001','002','003','004']){const s=await readFile(join(root,`works/old-testament/episodes/${id}/index.html`),'utf8');assert.deepEqual([...s.matchAll(/data-page-id="(P[0-9]+)"/g)].map(m=>m[1]),Array.from({length:id==='001'?8:id==='004'?7:6},(_,i)=>`P${String(i+1).padStart(2,'0')}`));}
+const arjuna=await readFile(join(root,'works/arjuna/episodes/001/index.html'),'utf8');assert.deepEqual([...arjuna.matchAll(/data-page-id="(P[0-9]+)"/g)].map(m=>m[1]),Array.from({length:10},(_,i)=>`P${String(i+1).padStart(2,'0')}`));assert.ok(arjuna.includes('左から右'));assert.ok(arjuna.includes('その後戦闘参加'));
 const sitemap=await readFile(join(root,'sitemap.xml'),'utf8');assert.ok(!sitemap.includes('/005/'));for(const m of sitemap.matchAll(/<loc>(.*?)<\/loc>/g))assert.ok(m[1].startsWith(seo.root!));
-const robots=await readFile(join(root,'robots.txt'),'utf8');assert.ok(robots.includes('Allow: /')&&robots.includes('Sitemap: '+seo.root+'sitemap.xml'));assert.ok(!files.some(f=>/EP005|ARJUNA|review-comics|\.png$/.test(relative(root,f))));
-console.log(JSON.stringify({passed:true,html:htmlFiles.length,images:assets.length,links,site:seo.root,EP001Included:true,EP004Included:true,EP005Excluded:true,hashes:true,seo:true}));
+const robots=await readFile(join(root,'robots.txt'),'utf8');assert.ok(robots.includes('Allow: /')&&robots.includes('Sitemap: '+seo.root+'sitemap.xml'));assert.ok(!files.some(f=>/EP005|review-comics|\.png$/.test(relative(root,f))));
+console.log(JSON.stringify({passed:true,html:htmlFiles.length,images:assets.length,links,site:seo.root,EP001Included:true,EP004Included:true,ARJUNAIncluded:true,EP005Excluded:true,hashes:true,seo:true}));

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "metadata": {
-    "updatedAt": "2026-10-03T06:11:10.007220+09:00"
+    "updatedAt": "2026-10-03T08:48:30.281061+09:00"
   },
   "episodeApprovals": [
     {
@@ -27,6 +27,13 @@
     },
     {
       "episode": "EP004",
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
       "approval": {
         "by": "site-owner",
         "date": "2026-10-03"
@@ -433,6 +440,156 @@
       "width": 1055,
       "height": 1491,
       "bytes": 2094430,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P01",
+      "file": "ARJUNA/P01.webp",
+      "sha256": "576c4bcfcc94cd3f516582283ee51130edee1d71c05738a189bef90673d37760",
+      "pngSha256": "656d52b042cd2e2c7957f73ddc80d87363445fd9365aea4f3ede81ead5f6041b",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1569906,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P02",
+      "file": "ARJUNA/P02.webp",
+      "sha256": "b90c0c638d11f61f49fa5d81852dd0e3b67a00dd024eb78c00f06721ddf497fa",
+      "pngSha256": "ea682cce28d4d214afa170745bb794843dbbc9997a00822c2723328aa591b66c",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1753622,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P03",
+      "file": "ARJUNA/P03.webp",
+      "sha256": "2952cfe7ab113905c1f21a81300ac70509991c54241008c9100ab2a9a0c42fd8",
+      "pngSha256": "bf570ca021229fc305027cb03f00189b4c14f49914a4d8cc112dc39604871c23",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1871122,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P04",
+      "file": "ARJUNA/P04.webp",
+      "sha256": "9446380f27522edf8df24e5d218b7a4b8a43961bc71676d83b28a7e50dae4940",
+      "pngSha256": "0cb60a639d73b12d48d84922919467f6a6996bce1e38fc081e20e3f991003d03",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1748552,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P05",
+      "file": "ARJUNA/P05.webp",
+      "sha256": "89c28abc123de31b3932e6eb0774e4cd651a43bd7cb15634d7a4ad97113c3b81",
+      "pngSha256": "3c446ac22ba0d0ac33c770d8d4f7f5c9ba68ee1c2532c4867b0f30f5586f2e17",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1786520,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P06",
+      "file": "ARJUNA/P06.webp",
+      "sha256": "411115064727b78efd4b69f1c53b2a68e9eff37db731cd1decaddc33d38e5e46",
+      "pngSha256": "835a0ad556dd077535368df61debfa465c15a75d8d8af50001fdfd826221d5b1",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1718884,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P07",
+      "file": "ARJUNA/P07.webp",
+      "sha256": "b6e5eddd31429306ff0a08aa6f5be2315078b7f03dbf83dc2517461fb7b149d1",
+      "pngSha256": "2c644ff6db9e8fe4dcfc7253eb9a259cce75e75adcb750cb2887a0a3fabc0f98",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1800944,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P08",
+      "file": "ARJUNA/P08.webp",
+      "sha256": "ae1fb7f3bf52be2dd518085c884fd8cc5a32f76772e2575f8422512da73e59da",
+      "pngSha256": "4db3a358270c13d382491b94adae9f2fd916697e20966821347f6a3cbc308c98",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1800738,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P09",
+      "file": "ARJUNA/P09.webp",
+      "sha256": "48ef3c31cd7cf23ddd75985b5d8b229d77a0c0d83fc3075c90f20b3529358a63",
+      "pngSha256": "ca36735a3f0c8ee8a2abd304915e525577e224240bec3250e647afae1e01acee",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1919158,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "ARJUNA",
+      "page": "P10",
+      "file": "ARJUNA/P10.webp",
+      "sha256": "a0044b5ce779eee49ae8f91048a053cd4d7aaf7cade1b788ee3eb2d74c8400a1",
+      "pngSha256": "db459174333c4b3925eeeccc031295b6ca7cb9408fc7645ea78168d20f45f312",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1804574,
       "losslessVerified": true,
       "approval": {
         "by": "site-owner",

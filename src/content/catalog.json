@@ -17,7 +17,6 @@
       "title": "人物・物語を知る",
       "description": "その名の向こうにある、歴史と伝承をたどる。",
       "future": [
-        "アルジュナ",
         "ギルガメッシュ",
         "ジャンヌ・ダルク",
         "レオニダス"
@@ -50,6 +49,19 @@
         "宗教",
         "物語",
         "創世記"
+      ]
+    },
+    {
+      "id": "arjuna",
+      "title": "アルジュナって何者？",
+      "collectionIds": [
+        "people"
+      ],
+      "summary": "弓の名手が、戦場で抱えた問い。",
+      "description": "人物入門シリーズの独立作品。五兄弟の一人アルジュナの弓術、戦場への道筋と葛藤、クリシュナへの問いと教え、本人の応答とその後の行動を全10ページで描きます。",
+      "topics": [
+        "人物入門",
+        "マハーバーラタ"
       ]
     }
   ],
@@ -507,6 +519,165 @@
         "by": "site-owner",
         "date": "2026-10-03"
       }
+    },
+    {
+      "id": "ARJUNA",
+      "workId": "arjuna",
+      "slug": "001",
+      "order": 1,
+      "title": "アルジュナって何者？",
+      "arc": "人物入門",
+      "description": "原典上の出来事を基礎とする、フルカラーの人物入門漫画。",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "publishRequested": true,
+      "sourceId": "ARJUNA",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "ARJUNA-V002/P01.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "現代のすずめから、パーンダヴァ五兄弟のアルジュナへ",
+          "publicFile": "ARJUNA/P01.webp",
+          "publicSha256": "576c4bcfcc94cd3f516582283ee51130edee1d71c05738a189bef90673d37760",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "ARJUNA-V002/P02.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "人工の鳥の頭を狙う弓術試験",
+          "publicFile": "ARJUNA/P02.webp",
+          "publicSha256": "b90c0c638d11f61f49fa5d81852dd0e3b67a00dd024eb78c00f06721ddf497fa",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "ARJUNA-V002/P03.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "賭博後の森12年、身元を隠す1年、王国問題",
+          "publicFile": "ARJUNA/P03.webp",
+          "publicSha256": "2952cfe7ab113905c1f21a81300ac70509991c54241008c9100ab2a9a0c42fd8",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "ARJUNA-V002/P04.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "軍勢ではなく非戦闘のクリシュナ本人を選び御者を願う",
+          "publicFile": "ARJUNA/P04.webp",
+          "publicSha256": "9446380f27522edf8df24e5d218b7a4b8a43961bc71676d83b28a7e50dae4940",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "ARJUNA-V002/P05.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "和平不成立から戦闘直前のクルクシェートラへ",
+          "publicFile": "ARJUNA/P05.webp",
+          "publicSha256": "89c28abc123de31b3932e6eb0774e4cd651a43bd7cb15634d7a4ad97113c3b81",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "ARJUNA-V002/P06.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "敵陣の師と親しい人々を見る",
+          "publicFile": "ARJUNA/P06.webp",
+          "publicSha256": "411115064727b78efd4b69f1c53b2a68e9eff37db731cd1decaddc33d38e5e46",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P07",
+          "order": 7,
+          "localFile": "ARJUNA-V002/P07.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "身内を前に苦悩し、車上で弓矢を置く",
+          "publicFile": "ARJUNA/P07.webp",
+          "publicSha256": "b6e5eddd31429306ff0a08aa6f5be2315078b7f03dbf83dc2517461fb7b149d1",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P08",
+          "order": 8,
+          "localFile": "ARJUNA-V002/P08.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "師への問いと弟子として教えを求めるアルジュナ",
+          "publicFile": "ARJUNA/P08.webp",
+          "publicSha256": "ae1fb7f3bf52be2dd518085c884fd8cc5a32f76772e2575f8422512da73e59da",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P09",
+          "order": 9,
+          "localFile": "ARJUNA-V002/P09.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "長い対話から身体と自己、務め、行為と執着、献身の論点を選んだ橋渡し",
+          "publicFile": "ARJUNA/P09.webp",
+          "publicSha256": "48ef3c31cd7cf23ddd75985b5d8b229d77a0c0d83fc3075c90f20b3529358a63",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        },
+        {
+          "id": "P10",
+          "order": 10,
+          "localFile": "ARJUNA-V002/P10.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "本人の応答、再び弓、その後戦闘参加、文献説明、現代の正式すずめ",
+          "publicFile": "ARJUNA/P10.webp",
+          "publicSha256": "a0044b5ce779eee49ae8f91048a053cd4d7aaf7cade1b788ee3eb2d74c8400a1",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-03"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-03"
+      }
     }
   ],
   "sources": [
@@ -760,6 +931,82 @@
         "契約はノアたちと子孫だけでなく生き物にも及びます。地を滅ぼす洪水についての約束を、局地的な災害が一切なくなるという説明にはしていません。",
         "虹は空に現れる契約のしるしとして表現しています。自然史上初めての虹だったという断定や、後世の象徴解釈は加えていません。",
         "第一の月一日の地表確認と第二の月二十七日の乾燥・下船を分けています。地の乾燥は、遠方の谷にも水がまったくないという意味ではありません。"
+      ]
+    },
+    {
+      "id": "ARJUNA",
+      "original": "マハーバーラタ／バガヴァッド・ギーター",
+      "ranges": [
+        {
+          "locator": "CE 1.115／1.123",
+          "event": "五兄弟、人工の鳥の頭を狙う試験"
+        },
+        {
+          "locator": "CE 2.67／5.1",
+          "event": "賭博後の12年＋1年の追放、期限後の王国問題"
+        },
+        {
+          "locator": "CE 5.7（34–35を含む）／5.125",
+          "event": "クリシュナ本人の選択、御者希望、和平交渉の拒絶"
+        },
+        {
+          "locator": "CE 6.23＝BG第1章",
+          "event": "戦場、師・親族を見る、苦悩して弓矢を置く"
+        },
+        {
+          "locator": "CE 6.24＝BG第2章（2.2–7、2.9–11）",
+          "event": "先行するやり取り、師への問い、弟子として教えを求める"
+        },
+        {
+          "locator": "BG2.18–20、2.31–38、2.47–48／BG3.4–8、3.19（CE6.24、6.25）",
+          "event": "身体と自己、戦士としての務め、行為と結果への執着についての選択的な橋渡し"
+        },
+        {
+          "locator": "BG18.54–66、18.63、18.72–73（CE6.40）",
+          "event": "献身・帰依、教えを考えて行動すること、対話終盤のアルジュナ本人の応答"
+        },
+        {
+          "locator": "CE6.41.1–3／6.43.8–10",
+          "event": "再び弓矢を持つ、その後の戦闘参加"
+        }
+      ],
+      "references": [
+        {
+          "title": "GRETIL マハーバーラタ第1巻（CE系サンスクリット電子本文）",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_01_u.htm",
+          "checked": "制作完成v002の照合・最終資料を継承"
+        },
+        {
+          "title": "GRETIL マハーバーラタ第2巻（CE系サンスクリット電子本文）",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_02_u.htm",
+          "checked": "制作完成v002の照合・最終資料を継承"
+        },
+        {
+          "title": "GRETIL マハーバーラタ第5巻（CE系サンスクリット電子本文）",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_05_u.htm",
+          "checked": "制作完成v002の照合・最終資料を継承"
+        },
+        {
+          "title": "GRETIL マハーバーラタ第6巻（CE系サンスクリット電子本文）",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_06_u.htm",
+          "checked": "制作完成v002の照合・最終資料を継承"
+        },
+        {
+          "title": "Kisari Mohan Ganguli英訳（19世紀刊行・パブリックドメイン）",
+          "url": "https://sacred-texts.com/hin/maha/index.htm",
+          "checked": "制作完成v002の照合・最終資料を継承"
+        }
+      ],
+      "textNote": "原典上の出来事と発言の意味を基礎に、漫画用の独自の現代日本語へ要約・再構成しています。特定の現代日本語訳の引用ではありません。",
+      "notes": [
+        "BORI Critical Edition（CE）の系統を反映する電子本文とGanguli英訳を対照しています。GanguliはCEと同一本文系統ではありません。CEの全校異装置を新たに調査したという意味ではありません。",
+        "背景建築、衣装、軍装、戦車や武器の具体的外観、人物の顔・表情・構図は漫画上の演出を含み、本文の確定記述や考古学的復元として提示していません。",
+        "クリシュナの低彩度の青い肌は、後世の伝統的図像を踏まえた漫画上の選択です。原典本文でこの肌色が確定されるとは扱いません。",
+        "鳥の試験は人工の鳥の「頭」を対象としています。追放は賭博後の森12年と身元を隠す1年で、アルジュナ個人の誓約による旅とは区別しています。",
+        "本作は人物入門です。P09は長い対話から人物物語に必要な一部論点を選んだ編集で、ギーター全体の完全要約ではありません。複数箇所を合成・短縮した独自日本語の台詞を含みます。",
+        "P10の応答はBG18.72–73を基礎にした短縮独自日本語です。記憶・想起などの語句を省略しており、その後の人生で二度と迷わなかったという評価ではありません。",
+        "対話と戦闘参加の間の出来事は省略しています。「その後」の時間分離を置き、対話終了直後に射撃したという連続場面にはしていません。",
+        "Ganguli第6巻XXVI／XXVII／XLII／XLIII／XLVも対照資料です。CE系本文の対応箇所とは本文系統を区別して使用しています。"
       ]
     }
   ]
