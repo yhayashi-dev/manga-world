@@ -11,5 +11,5 @@ test('新版EP001は8頁を承認済み公開候補として読め、既存公�
  assert.ok(ep.pages.every(p=>p.localFile.startsWith('EP001-REMAKE-V001/')));
  assert.equal(canRead(ep,'local'),true);assert.equal(canRead(ep,'public'),true);
  assert.equal(coverFor(catalog.episodes,'local')?.episode.id,'EP001');assert.equal(coverFor(catalog.episodes,'public')?.episode.id,'EP001');
- const assets=verifyPublication(catalog.episodes,JSON.parse(readFileSync('src/content/publication-manifest.json','utf8')));assert.equal(assets.length,20);assert.equal(assets.filter(a=>a.episode==='EP001').length,8);
+ const assets=verifyPublication(catalog.episodes,JSON.parse(readFileSync('src/content/publication-manifest.json','utf8')));assert.equal(assets.filter(a=>['EP001','EP002','EP003'].includes(a.episode)).length,20);assert.equal(assets.filter(a=>a.episode==='EP001').length,8);
 });

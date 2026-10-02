@@ -5,8 +5,8 @@ import catalog from '../src/content/catalog.json';
 import current from '../src/content/publication-manifest.json';
 // Synthetic in-memory approvals only. Never writes EP001 approval or release assets.
 function fixture(){
- const episodes:any[]=structuredClone(catalog.episodes);
- const assets:any[]=structuredClone(current.assets.filter(a=>a.episode!=='EP001'));
+ const episodes:any[]=structuredClone(catalog.episodes.filter(e=>['EP001','EP002','EP003'].includes(e.id)));
+ const assets:any[]=structuredClone(current.assets.filter(a=>['EP002','EP003'].includes(a.episode)));
  const approvals=episodes.filter(e=>e.publishRequested&&e.id!=='EP001').map(e=>({episode:e.id,approval:structuredClone(e.approval)}));
  const approval={by:'test-only-reviewer',date:'2030-01-02'};
  const ep=episodes.find(e=>e.id==='EP001');ep.publicationStatus='ready';ep.publishRequested=true;ep.approval=approval;

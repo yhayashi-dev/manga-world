@@ -4,7 +4,7 @@ import {verifyPublication} from '../src/lib/publication';
 import {seoConfig} from '../src/lib/seo';
 import catalog from '../src/content/catalog.json';
 import manifest from '../src/content/publication-manifest.json';
-test('approved EP002/3 bind to their exact public asset hashes',()=>{assert.equal(verifyPublication(catalog.episodes as any,manifest).filter(a=>a.episode!=='EP001').length,12)});
+test('approved EP002/3 bind to their exact public asset hashes',()=>{assert.equal(verifyPublication(catalog.episodes as any,manifest).filter(a=>['EP002','EP003'].includes(a.episode)).length,12)});
 test('held selection rejected even with manifest',()=>{const c=structuredClone(catalog.episodes);c[0].publishRequested=true;c[0].publicationStatus='held';assert.throws(()=>verifyPublication(c as any,manifest),/held/)});
 test('catalog cannot swap approved image hash',()=>{const c=structuredClone(catalog.episodes) as any;c[1].pages[0].publicSha256='0'.repeat(64);assert.throws(()=>verifyPublication(c,manifest),/mismatch/)});
 test('unapproved manifest and extra episode rejected',()=>{assert.throws(()=>verifyPublication(catalog.episodes as any,{...manifest,approved:false}));assert.throws(()=>verifyPublication(catalog.episodes as any,{...manifest,assets:[...manifest.assets,{...manifest.assets[0],episode:'EP001'}]}))});
