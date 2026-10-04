@@ -810,7 +810,7 @@
       "arc": "哲学",
       "description": "来客用の席を用意する日常から、問いと説明の見直しへ。",
       "productionStatus": "production_complete",
-      "publicationStatus": "ready",
+      "publicationStatus": "published",
       "publishRequested": true,
       "sourceId": "PHILOSOPHY-INTRO",
       "pages": [
