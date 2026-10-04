@@ -34,6 +34,11 @@
         "宗教比較",
         "社会制度・ニュース用語"
       ]
+    },
+    {
+      "id": "philosophy",
+      "title": "哲学",
+      "description": "身近な疑問から、理由や前提を確かめる。"
     }
   ],
   "works": [
@@ -62,6 +67,19 @@
       "topics": [
         "人物入門",
         "マハーバーラタ"
+      ]
+    },
+    {
+      "id": "philosophy-intro",
+      "title": "そもそも哲学って何？",
+      "collectionIds": [
+        "philosophy"
+      ],
+      "summary": "「椅子って、座れる物のこと？」から考えてみる。",
+      "description": "身近な問いから、意味・理由・反例・前提・条件を検討し、答えを見直す過程を全10ページでたどります。哲学する一つの入口を体験する漫画です。",
+      "topics": [
+        "哲学",
+        "身近な疑問"
       ]
     }
   ],
@@ -782,6 +800,165 @@
         "by": "site-owner",
         "date": "2026-10-03"
       }
+    },
+    {
+      "id": "PHILOSOPHY-INTRO",
+      "workId": "philosophy-intro",
+      "slug": "001",
+      "order": 1,
+      "title": "そもそも哲学って何？",
+      "arc": "哲学",
+      "description": "来客用の席を用意する日常から、問いと説明の見直しへ。",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "publishRequested": true,
+      "sourceId": "PHILOSOPHY-INTRO",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "PHILOSOPHY-INTRO-V001/P01.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "日常の来客準備から椅子の問いへ",
+          "publicFile": "PHILOSOPHY-INTRO/P01.webp",
+          "publicSha256": "0773d3a93fb788679f245dd70b60c97d834c3002536ecbeb2ed58451ce593cbc",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "PHILOSOPHY-INTRO-V001/P02.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "今座れる物という説明を試す",
+          "publicFile": "PHILOSOPHY-INTRO/P02.webp",
+          "publicSha256": "27d4fd3e3851a5acc0c6935c96567f6dbf4cb20852db16f736e3f3a6fb57c641",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "PHILOSOPHY-INTRO-V001/P03.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "実際に座れる収納箱",
+          "publicFile": "PHILOSOPHY-INTRO/P03.webp",
+          "publicSha256": "84ccde429708056743347ce3d35a7e0cacdeb0745689601fc6428bb95acbd477",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "PHILOSOPHY-INTRO-V001/P04.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "今は座れない修理中の椅子",
+          "publicFile": "PHILOSOPHY-INTRO/P04.webp",
+          "publicSha256": "2f741c5ea4415a2944d62c145a2da70867b8dc7d2ef2b96baf90e3c6da9e192d",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "PHILOSOPHY-INTRO-V001/P05.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "使える席と呼び名という二つの問い",
+          "publicFile": "PHILOSOPHY-INTRO/P05.webp",
+          "publicSha256": "fdfc975f326c4cada7a06d11a64d755bec0ecfe81a97e2ada22d494643e83b84",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "PHILOSOPHY-INTRO-V001/P06.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "座るために作られた物という改善案",
+          "publicFile": "PHILOSOPHY-INTRO/P06.webp",
+          "publicSha256": "fe9714bad97b844a965bf440020d5763b4e8dcebfc1f7efccdedc6bd1f8356f9",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P07",
+          "order": 7,
+          "localFile": "PHILOSOPHY-INTRO-V001/P07.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "箱を長く座具に使う仮定",
+          "publicFile": "PHILOSOPHY-INTRO/P07.webp",
+          "publicSha256": "c953f175205e995e94ef68da6eddb82b91a189dce4d98ee30ae2f8d5ea12f321",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P08",
+          "order": 8,
+          "localFile": "PHILOSOPHY-INTRO-V001/P08.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "作られ方・使われ方を検討し来客席を置く",
+          "publicFile": "PHILOSOPHY-INTRO/P08.webp",
+          "publicSha256": "351eb5631ab5cb8961ba9fd5a5fecf3021b771ebb11ae042102ba3ed1f9bac6c",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P09",
+          "order": 9,
+          "localFile": "PHILOSOPHY-INTRO-V001/P09.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "正しさ・知識・幸せへの問いの広がり",
+          "publicFile": "PHILOSOPHY-INTRO/P09.webp",
+          "publicSha256": "ff806943b39be4b712933981de701e1b8a12ec02f2ca984849c54f8acbe9b1d2",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        },
+        {
+          "id": "P10",
+          "order": 10,
+          "localFile": "PHILOSOPHY-INTRO-V001/P10.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "最初と考えた後のノート、哲学する一つの入口",
+          "publicFile": "PHILOSOPHY-INTRO/P10.webp",
+          "publicSha256": "2ddf5843d60365aa53033576074b9152796f717b4781c19f36416cea17ddde51",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-04"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
     }
   ],
   "sources": [
@@ -1167,6 +1344,60 @@
         "9:26の「その」は、参照英訳のhis／theirなど照応の差に注意し、隷属先を人物配置で確定していません。",
         "9:27の居住主体には解釈の差があるため、本作では「セムの天幕での暮らしを願う言葉も続いた」という独自要約のナレーションを、ノアの二つの発話の間に置いています。逐語引用ではなく、ヤペテの居住や神が物理的に天幕へ入ることを独自確定していません。",
         "洪水後の350年と、ノアの総生涯950年は別の情報です。二つの年数を加算していません。季節の変化は長い年月の演出で、具体的な暦・死因・葬儀・墓・最期の言葉は加えていません。"
+      ]
+    },
+    {
+      "id": "PHILOSOPHY-INTRO",
+      "original": "哲学の問い方を考えるための背景資料と制作方針",
+      "ranges": [
+        {
+          "locator": "P01〜P08：椅子の問い",
+          "event": "意味・理由・反例・前提・条件を検討し、説明を言い直す創作の会話。"
+        },
+        {
+          "locator": "P09：問いの広がり",
+          "event": "正しさ・知識・幸せについての問いを提示し、ここでは回答しません。"
+        },
+        {
+          "locator": "P10：考える過程の回収",
+          "event": "最初と検討後のノートを比べ、哲学する一つの入口として振り返ります。"
+        }
+      ],
+      "references": [
+        {
+          "title": "A 一次資料：プラトン『国家』I 331c–d（Jowett英訳）",
+          "url": "https://classics.mit.edu/Plato/republic.2.i.html",
+          "checked": "制作時のPhase1・2照合記録（2026-10-03）を継承"
+        },
+        {
+          "title": "B 学術資料：Stanford Encyclopedia of Philosophy — Definitions",
+          "url": "https://plato.stanford.edu/entries/definitions/",
+          "checked": "制作時のPhase1・2照合記録（2026-10-03）を継承"
+        },
+        {
+          "title": "B 学術資料：Stanford Encyclopedia of Philosophy — Concepts",
+          "url": "https://plato.stanford.edu/entries/concepts/",
+          "checked": "制作時のPhase1・2照合記録（2026-10-03）を継承"
+        },
+        {
+          "title": "B 学術資料：Stanford Encyclopedia of Philosophy — Informal Logic",
+          "url": "https://plato.stanford.edu/entries/logic-informal/",
+          "checked": "制作時のPhase1・2照合記録（2026-10-03）を継承"
+        },
+        {
+          "title": "C 一般参考：OpenStax Introduction to Philosophy §1.1",
+          "url": "https://openstax.org/books/introduction-philosophy/pages/1-1-what-is-philosophy",
+          "checked": "制作時のPhase1・2照合記録（2026-10-03）を継承"
+        }
+      ],
+      "textNote": "会話とナレーションは本作独自の現代日本語です。特定の現代日本語訳を転載した作品ではありません。",
+      "notes": [
+        "椅子の会話、男女、すずめとのやり取り、部屋、反例、ノートは漫画上の創作です。特定の哲学者が実際にこの椅子の会話をしたわけではありません。",
+        "本作ではA＝一次資料、B＝学術的二次資料、C＝一般向け参考資料、D＝漫画上の説明・比喩・創作として資料と表現を区別しています。人物入門作品の分類とは異なります。",
+        "プラトン『国家』の事例による検討は方法の背景資料です。椅子の事例や人物の台詞の直接出典ではなく、ギリシャ語本文の独自校訂や歴史上の人物の逐語記録として扱っていません。",
+        "学術資料では定義の種類・目的、概念と分類、理由による検討を参照し、一般向け資料では哲学の複数の領域を確認しました。説明文をそのまま漫画へ移したものではありません。",
+        "完全な椅子の定義を発見したという結論ではありません。作られ方や使われ方は検討材料であり、用途だけや多数派の呼び方を唯一の正解とはしていません。",
+        "哲学全体を概念分析や今回の方法だけに限定していません。「これも、哲学する一つの入口。」という範囲で描いています。"
       ]
     }
   ]

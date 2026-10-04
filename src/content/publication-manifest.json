@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "metadata": {
-    "updatedAt": "2026-10-03T21:51:46.145660+09:00"
+    "updatedAt": "2026-10-04T20:01:41.798240+09:00"
   },
   "episodeApprovals": [
     {
@@ -44,6 +44,13 @@
       "approval": {
         "by": "site-owner",
         "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
       }
     }
   ],
@@ -691,6 +698,156 @@
       "approval": {
         "by": "site-owner",
         "date": "2026-10-03"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P01",
+      "file": "PHILOSOPHY-INTRO/P01.webp",
+      "sha256": "0773d3a93fb788679f245dd70b60c97d834c3002536ecbeb2ed58451ce593cbc",
+      "pngSha256": "d2c6e12b465e451778862669d18bc48b844dcf8772ec9353c260626747e8f213",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1450468,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P02",
+      "file": "PHILOSOPHY-INTRO/P02.webp",
+      "sha256": "27d4fd3e3851a5acc0c6935c96567f6dbf4cb20852db16f736e3f3a6fb57c641",
+      "pngSha256": "cbbf2357e24f4835b347dbc80d1733bb65a9ce35055b5b364f6f856459df420b",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1551188,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P03",
+      "file": "PHILOSOPHY-INTRO/P03.webp",
+      "sha256": "84ccde429708056743347ce3d35a7e0cacdeb0745689601fc6428bb95acbd477",
+      "pngSha256": "ca17583740d9563991855674b3898effb2094529a0c87ad5182b208d22191eaa",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1636784,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P04",
+      "file": "PHILOSOPHY-INTRO/P04.webp",
+      "sha256": "2f741c5ea4415a2944d62c145a2da70867b8dc7d2ef2b96baf90e3c6da9e192d",
+      "pngSha256": "ea6b0291db40e5bda8bb66dfe31105d1c7f0a5e71a79efcdd740fc37173d4762",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1614062,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P05",
+      "file": "PHILOSOPHY-INTRO/P05.webp",
+      "sha256": "fdfc975f326c4cada7a06d11a64d755bec0ecfe81a97e2ada22d494643e83b84",
+      "pngSha256": "fe0ed3b66d63afffab45939aaaf8a51c3d4602472f54d58f63fa5f35f484a7d2",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1675316,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P06",
+      "file": "PHILOSOPHY-INTRO/P06.webp",
+      "sha256": "fe9714bad97b844a965bf440020d5763b4e8dcebfc1f7efccdedc6bd1f8356f9",
+      "pngSha256": "cbc6de4d0934b1b85f0b674087f5025ed5ae59d7a9e2f0c96224d5513577263b",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1650080,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P07",
+      "file": "PHILOSOPHY-INTRO/P07.webp",
+      "sha256": "c953f175205e995e94ef68da6eddb82b91a189dce4d98ee30ae2f8d5ea12f321",
+      "pngSha256": "f19da989b5a840b2972a43ae0c1e359136fbfe62e5315b508d93f61025a1519c",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1694936,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P08",
+      "file": "PHILOSOPHY-INTRO/P08.webp",
+      "sha256": "351eb5631ab5cb8961ba9fd5a5fecf3021b771ebb11ae042102ba3ed1f9bac6c",
+      "pngSha256": "5b512eb213fb8e8ef3dcb28beca6bad853b0fdb26099ed65fd9fac78f69e20ab",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1714302,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P09",
+      "file": "PHILOSOPHY-INTRO/P09.webp",
+      "sha256": "ff806943b39be4b712933981de701e1b8a12ec02f2ca984849c54f8acbe9b1d2",
+      "pngSha256": "7a85380120af300a9f7d4efd20640b5366967a5c9696836dc059386d2d1f5858",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1697342,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-INTRO",
+      "page": "P10",
+      "file": "PHILOSOPHY-INTRO/P10.webp",
+      "sha256": "2ddf5843d60365aa53033576074b9152796f717b4781c19f36416cea17ddde51",
+      "pngSha256": "38c0b743f534e8373b14002b7f71002e7e40064221d172e64d20cfdb195208fd",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1643838,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-04"
       }
     }
   ]
