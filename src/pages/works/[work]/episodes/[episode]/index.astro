@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../../../layouts/Layout.astro';import EpisodeNav from '../../../../../components/EpisodeNav.astro';import {catalog,href,workPath,readable,pageUrl,originalPageUrl,isLocal} from '../../../../../lib/site';import {orderedPages} from '../../../../../lib/catalog';
 export function getStaticPaths(){return catalog.episodes.filter(readable).map(episode=>({params:{work:episode.workId,episode:episode.slug},props:{episode}}))}
-const {episode}=Astro.props;const arjuna=episode.id==='ARJUNA';const philosophy=episode.id==='PHILOSOPHY-INTRO';const standalone=arjuna||philosophy;const work=catalog.works.find(w=>w.id===episode.workId)!;
+const {episode}=Astro.props;const arjuna=episode.id==='ARJUNA';const philosophy=(episode.id==='PHILOSOPHY-INTRO'||episode.id==='PHILOSOPHY-KNOWLEDGE');const standalone=arjuna||philosophy;const work=catalog.works.find(w=>w.id===episode.workId)!;
 ---
 <Layout title={`第${episode.order}話 ${episode.title} — ${work.title}`} reader>
 <div class="reader-heading"><nav class="breadcrumb" aria-label="パンくず"><a href={href('/works/')}>作品一覧</a><span> / </span><a href={href(workPath(work.id))}>{work.title}</a></nav><p class="eyebrow">{work.title} / {episode.arc}</p><h1><span>第{episode.order}話</span> {episode.title}</h1><p class="meta">全{episode.pages.length}ページ{isLocal?(episode.id==='EP001'?' · 公開用新版・公開承認済み':' · 本番公開対象承認済み／デプロイ前'):''}</p><p class="reading-guide">{arjuna?'ページ内は上から下、同じ段では左から右に読みます。':'ページ内は上から下、同じ段では右から左に読みます。'}</p><p class="small muted">文字が小さい場合は、漫画画像をタップすると拡大できます。</p></div>

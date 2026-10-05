@@ -2,10 +2,10 @@ import {z} from 'zod';
 import type {Episode} from './catalog';
 import {assertPublicSelection} from './catalog';
 const approval = z.object({by:z.string().trim().min(1), date:z.iso.date()}).strict();
-const episodeId = z.string().regex(/^(?:EP[0-9]+|ARJUNA|PHILOSOPHY-INTRO)$/);
+const episodeId = z.string().regex(/^(?:EP[0-9]+|ARJUNA|PHILOSOPHY-INTRO|PHILOSOPHY-KNOWLEDGE)$/);
 const asset = z.object({
  episode:episodeId, page:z.string().regex(/^P[0-9]+$/),
- file:z.string().regex(/^(?:EP[0-9]+|ARJUNA|PHILOSOPHY-INTRO)\/P[0-9]+\.webp$/),
+ file:z.string().regex(/^(?:EP[0-9]+|ARJUNA|PHILOSOPHY-INTRO|PHILOSOPHY-KNOWLEDGE)\/P[0-9]+\.webp$/),
  sha256:z.string().regex(/^[a-f0-9]{64}$/), pngSha256:z.string().regex(/^[a-f0-9]{64}$/),
  width:z.number().int().positive(), height:z.number().int().positive(), bytes:z.number().int().positive(),
  losslessVerified:z.literal(true), approval

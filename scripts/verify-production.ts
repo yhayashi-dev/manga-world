@@ -4,7 +4,7 @@ import {validateCatalog} from '../src/lib/catalog';import {verifyPublication} fr
 const root=resolve('dist');const data=validateCatalog(JSON.parse(await readFile('src/content/catalog.json','utf8')));const assets=verifyPublication(data.episodes,JSON.parse(await readFile('src/content/publication-manifest.json','utf8')));
 const seo=seoConfig(false,process.env.MANGA_SITE,process.env.MANGA_BASE||'/');assert.ok(seo.indexable&&seo.root,'Real release URL required');const base=new URL(seo.root!).pathname;const origin=new URL(seo.root!).origin;
 const files:string[]=[];async function walk(d:string){for(const f of await readdir(d,{withFileTypes:true})){assert.equal(f.isSymbolicLink(),false);if(f.isDirectory())await walk(join(d,f.name));else files.push(join(d,f.name))}}await walk(root);
-const imageFiles=files.filter(f=>/\.(png|jpe?g|webp|gif|avif)$/.test(f));assert.equal(imageFiles.length,assets.length);assert.equal(assets.length,53);assert.deepEqual([...new Set(assets.map(a=>a.episode))].sort(),['ARJUNA','EP001','EP002','EP003','EP004','EP005','PHILOSOPHY-INTRO']);
+const imageFiles=files.filter(f=>/\.(png|jpe?g|webp|gif|avif)$/.test(f));assert.equal(imageFiles.length,assets.length);assert.equal(assets.length,63);assert.deepEqual([...new Set(assets.map(a=>a.episode))].sort(),['ARJUNA','EP001','EP002','EP003','EP004','EP005','PHILOSOPHY-INTRO','PHILOSOPHY-KNOWLEDGE']);
 for(const a of assets){const b=await readFile(join(root,'comics',a.file));assert.equal(createHash('sha256').update(b).digest('hex'),a.sha256)}
 const htmlFiles=files.filter(f=>f.endsWith('.html'));let links=0;
 for(const file of htmlFiles){const rel=relative(root,file);const text=await readFile(file,'utf8');assert.ok(!/\/Users\/|PRIVATE_ASSET|BEGIN (?:RSA |OPENSSH )?PRIVATE KEY|ghp_[A-Za-z0-9]{30,}/.test(text));assert.ok(!/class="preview-band"/.test(text));
@@ -20,3 +20,5 @@ const robots=await readFile(join(root,'robots.txt'),'utf8');assert.ok(robots.inc
 console.log(JSON.stringify({passed:true,html:htmlFiles.length,images:assets.length,links,site:seo.root,EP001Included:true,EP004Included:true,ARJUNAIncluded:true,EP005Included:true,EP006Excluded:true,hashes:true,seo:true}));
 
 const philosophy=await readFile(join(root,'works/philosophy-intro/episodes/001/index.html'),'utf8');assert.deepEqual([...philosophy.matchAll(/data-page-id="(P[0-9]+)"/g)].map(m=>m[1]),Array.from({length:10},(_,i)=>`P${String(i+1).padStart(2,'0')}`));assert.ok(philosophy.includes('右から左')&&philosophy.includes('#page-10'));
+
+const knowledge=await readFile(join(root,'works/philosophy-knowledge/episodes/001/index.html'),'utf8');assert.deepEqual([...knowledge.matchAll(/data-page-id="(P[0-9]+)"/g)].map(m=>m[1]),Array.from({length:10},(_,i)=>`P${String(i+1).padStart(2,'0')}`));assert.ok(knowledge.includes('右から左')&&knowledge.includes('#page-10'));

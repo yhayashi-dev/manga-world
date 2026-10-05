@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "metadata": {
-    "updatedAt": "2026-10-04T20:01:41.798240+09:00"
+    "updatedAt": "2026-10-05T20:07:19.884966+09:00"
   },
   "episodeApprovals": [
     {
@@ -51,6 +51,13 @@
       "approval": {
         "by": "site-owner",
         "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
       }
     }
   ],
@@ -848,6 +855,156 @@
       "approval": {
         "by": "site-owner",
         "date": "2026-10-04"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P01",
+      "file": "PHILOSOPHY-KNOWLEDGE/P01.webp",
+      "sha256": "eee65f2c7ad453ee94866aea0974c234cdd93cb586822ace0ba3ac7204653a23",
+      "pngSha256": "906153c47bd47ff9ddf3c1bdc38f00a171e1e038b433989748f6c6c34200fc9d",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1382744,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P02",
+      "file": "PHILOSOPHY-KNOWLEDGE/P02.webp",
+      "sha256": "06d61ae33f564807d4cdd793aac09864703aaf3c403741d34b486d41213fee52",
+      "pngSha256": "dd5127b87c325e1b5accf7826480d5f4e1c1b6e4bdb5fa1ea67442aebba24586",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1518464,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P03",
+      "file": "PHILOSOPHY-KNOWLEDGE/P03.webp",
+      "sha256": "c6b320de85f0dc1ec069db660995e8fe400010057ac4dad7467873bfb5c354e4",
+      "pngSha256": "ad5133c28560f9db05f6f43702052727a298dd6a2fbfbe3f47c8780961d94b0d",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1611360,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P04",
+      "file": "PHILOSOPHY-KNOWLEDGE/P04.webp",
+      "sha256": "bdc9ead995c60c279c7873ca83b08e51128c8bb434198b8f53672de758d7cc67",
+      "pngSha256": "6dc5d14d63fc69bd0f7ccec7b86ff9e0551c06b09ea199eb99ecb7ab3dc08866",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1567162,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P05",
+      "file": "PHILOSOPHY-KNOWLEDGE/P05.webp",
+      "sha256": "134e75bd032e544dcd7e026582f36604b2587817f95196743147582d9ea177d9",
+      "pngSha256": "bac309cd97e0d7210ecf1633095d3625048182f3ee8f5c6ab52784b71268e3a8",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1594660,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P06",
+      "file": "PHILOSOPHY-KNOWLEDGE/P06.webp",
+      "sha256": "42e355fb774cfdfbe0184a287a3061758db31f492a8e4a5f1fc8073f9aa55d3e",
+      "pngSha256": "9210f4d4117b671060fa49a0ddaff67e640b2b277d089013afbcbb92141cfbb1",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1650520,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P07",
+      "file": "PHILOSOPHY-KNOWLEDGE/P07.webp",
+      "sha256": "a47a68c33221d9a0373b9e9ab844865ac92349b23de3277992ad7f2eba459fb5",
+      "pngSha256": "b1687fa9acb07f13b007a5a2c0f0e55426b34708d732529c4aa7db4a0cb324aa",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1750536,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P08",
+      "file": "PHILOSOPHY-KNOWLEDGE/P08.webp",
+      "sha256": "9cb2c1e7af9907d237a78797e695ea5072d6bb6396bdb0af7270e931d86d52ea",
+      "pngSha256": "139f12b9c1a6586aa653b243ec0157f8b5ac50d3a7284b59ade17b9b71ebc007",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1649240,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P09",
+      "file": "PHILOSOPHY-KNOWLEDGE/P09.webp",
+      "sha256": "ebf04c80048245faefcba1ca68c573b1949e2935990b042c3aab72089a73baa3",
+      "pngSha256": "7232ab2b1b97279b6a1443c7d29bdfeb0717dde857e4d80f66ca53d05ed334af",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1715638,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-KNOWLEDGE",
+      "page": "P10",
+      "file": "PHILOSOPHY-KNOWLEDGE/P10.webp",
+      "sha256": "5bf8f7b8083503d604521dc2ea93f3b17c4fc474d314baa0bfaa9cc91596dd6f",
+      "pngSha256": "94244e07551c91bc7a8db335f0c3a5dc574df495a7473a6447d72b33eeb8de51",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1826986,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
       }
     }
   ]

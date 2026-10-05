@@ -81,6 +81,20 @@
         "哲学",
         "身近な疑問"
       ]
+    },
+    {
+      "id": "philosophy-knowledge",
+      "title": "「知っている」ってどういうこと？",
+      "collectionIds": [
+        "philosophy"
+      ],
+      "summary": "「雨だよ。知ってる。」その判断は、何を根拠にしている？",
+      "description": "雨についての日常会話を通して、信じていること、実際に本当であること、そう考える理由、偶然当たっただけの場合との違いを全10ページで考えます。知識の完全な定義を提示する作品ではありません。",
+      "topics": [
+        "哲学",
+        "認識論",
+        "日常の判断"
+      ]
     }
   ],
   "episodes": [
@@ -959,6 +973,168 @@
         "by": "site-owner",
         "date": "2026-10-04"
       }
+    },
+    {
+      "id": "PHILOSOPHY-KNOWLEDGE",
+      "workId": "philosophy-knowledge",
+      "slug": "001",
+      "order": 1,
+      "title": "「知っている」ってどういうこと？",
+      "description": "「雨だよ。知ってる。」から、信じていること・事実・根拠の違いを考えます。",
+      "arc": "哲学",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "ready": true,
+      "publicApproved": true,
+      "publishRequested": true,
+      "published": false,
+      "sourceId": "PHILOSOPHY-KNOWLEDGE",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P01.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "外出前の傘の相談から、雨だと知っている理由を問う",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P01.webp",
+          "publicSha256": "eee65f2c7ad453ee94866aea0974c234cdd93cb586822ace0ba3ac7204653a23",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P02.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "濡れた地面を見て雨だと考えた理由",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P02.webp",
+          "publicSha256": "06d61ae33f564807d4cdd793aac09864703aaf3c403741d34b486d41213fee52",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P03.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "同じ時点・場所で散水だった場合の想像",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P03.webp",
+          "publicSha256": "c6b320de85f0dc1ec069db660995e8fe400010057ac4dad7467873bfb5c354e4",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P04.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "本人の考えと実際の雨を区別する仮案",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P04.webp",
+          "publicSha256": "bdc9ead995c60c279c7873ca83b08e51128c8bb434198b8f53672de758d7cc67",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P05.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "根拠のない当てずっぽうが偶然当たる想像",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P05.webp",
+          "publicSha256": "134e75bd032e544dcd7e026582f36604b2587817f95196743147582d9ea177d9",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P06.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "信じていること・実際の事実・理由と根拠の三観点",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P06.webp",
+          "publicSha256": "42e355fb774cfdfbe0184a287a3061758db31f492a8e4a5f1fc8073f9aa55d3e",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P07",
+          "order": 7,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P07.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "最初の時点の直接観察と、その観察について聞く証言",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P07.webp",
+          "publicSha256": "a47a68c33221d9a0373b9e9ab844865ac92349b23de3277992ad7f2eba459fb5",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P08",
+          "order": 8,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P08.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "本当で理由もあってなお議論が残るという短い留保",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P08.webp",
+          "publicSha256": "9cb2c1e7af9907d237a78797e695ea5072d6bb6396bdb0af7270e931d86d52ea",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P09",
+          "order": 9,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P09.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "最初の判断を根拠を添えて言い直し、出発時点へ移る",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P09.webp",
+          "publicSha256": "ebf04c80048245faefcba1ca68c573b1949e2935990b042c3aab72089a73baa3",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P10",
+          "order": 10,
+          "localFile": "PHILOSOPHY-KNOWLEDGE-V001/P10.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "出かける現在の雨を確かめ、傘を持って外出する",
+          "publicFile": "PHILOSOPHY-KNOWLEDGE/P10.webp",
+          "publicSha256": "5bf8f7b8083503d604521dc2ea93f3b17c4fc474d314baa0bfaa9cc91596dd6f",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
     }
   ],
   "sources": [
@@ -1398,6 +1574,52 @@
         "学術資料では定義の種類・目的、概念と分類、理由による検討を参照し、一般向け資料では哲学の複数の領域を確認しました。説明文をそのまま漫画へ移したものではありません。",
         "完全な椅子の定義を発見したという結論ではありません。作られ方や使われ方は検討材料であり、用途だけや多数派の呼び方を唯一の正解とはしていません。",
         "哲学全体を概念分析や今回の方法だけに限定していません。「これも、哲学する一つの入口。」という範囲で描いています。"
+      ]
+    },
+    {
+      "id": "PHILOSOPHY-KNOWLEDGE",
+      "original": "知識・信念・真偽・根拠を考えるための背景資料と制作方針",
+      "ranges": [
+        {
+          "locator": "P01〜P05",
+          "event": "日常の雨の判断と、散水・偶然的中という想像例を比較します。"
+        },
+        {
+          "locator": "P06〜P08",
+          "event": "信じていること、実際の真偽、理由・根拠を区別し、観察と証言、知識について残る議論を考えます。"
+        },
+        {
+          "locator": "P09〜P10",
+          "event": "判断の根拠を添えて言い直し、出かける現在の天候を新しく確認して行動します。"
+        }
+      ],
+      "references": [
+        {
+          "title": "A 一次資料：Edmund L. Gettier (1963), Is Justified True Belief Knowledge? — Analysis 23(6), 121–123",
+          "url": "https://www.ditext.com/gettier/gettier.html",
+          "checked": "制作版完成v001の使用資料記録を継承"
+        },
+        {
+          "title": "B 学術的二次資料：Stanford Encyclopedia of Philosophy — The Analysis of Knowledge",
+          "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+          "checked": "制作版完成v001の使用資料記録を継承"
+        },
+        {
+          "title": "B 学術的二次資料：Stanford Encyclopedia of Philosophy — Epistemology",
+          "url": "https://plato.stanford.edu/entries/epistemology/",
+          "checked": "制作版完成v001の使用資料記録を継承"
+        }
+      ],
+      "textNote": "会話と説明は漫画用に独自に作成した日本語です。特定の現代日本語訳の転載ではありません。",
+      "notes": [
+        "本作品の資料分類はA：一次資料、B：学術的二次資料、C：一般向け参考資料、D：漫画上の説明・比喩・創作です。本作の採用背景資料はA・Bで、Cは未採用です。",
+        "雨、散水、当てずっぽう、人物、玄関、会話、すずめ、ノート、想像ケースはDの創作です。Gettier本人がこの雨の例を提示したわけではありません。",
+        "P05の無根拠な偶然的中をGettier問題そのものとして描いていません。Gettier論文はP08の短い留保の背景資料で、原例の漫画化や本文引用は行っていません。",
+        "信じていること・本当であること・理由があることの三観点を、知識の完全な定義や十分条件として提示していません。理由があり本当でも難しい例が議論されることを短く示しています。",
+        "濡れた地面からの推測は理由のある判断として扱い、直接観察や証言を単純に順位付けしていません。直接見れば絶対に知識、聞いただけなら知識ではないという結論にはしていません。",
+        "P03の散水とP05の当てずっぽうは同じ場所・基準時点についての想像です。本筋の真相を変更する場面ではありません。P07の回想で見た雨と、それを聞いた報告は同じ基準時点の雨を対象にしています。",
+        "P10の「出かける今」は新しい時点の確認です。その雨を見たことから、最初の時点でも知っていたと遡って証明するものではありません。",
+        "認識論を情報源チェック術だけに限定せず、何を知識と呼べるかという問いの一つの入口として描いています。"
       ]
     }
   ]
