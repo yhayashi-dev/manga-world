@@ -1135,6 +1135,137 @@
         "by": "site-owner",
         "date": "2026-10-05"
       }
+    },
+    {
+      "id": "EP006",
+      "workId": "old-testament",
+      "slug": "006",
+      "order": 6,
+      "title": "諸民族とバベル",
+      "description": "諸民族の広がりから、町と塔の建設、言葉の混乱と散開へ。",
+      "arc": "創世記",
+      "productionStatus": "production_complete",
+      "publicationStatus": "published",
+      "publishRequested": true,
+      "sourceId": "EP006",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "EP006/P01.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "洪水後の子孫と海辺・内陸への広がり",
+          "publicFile": "EP006/P01.webp",
+          "publicSha256": "20cc2b3d63cc1626a7363b4c69351a763d5bb5c5fc38db5d5723a40ca5901087",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "EP006/P02.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "氏族・言葉・土地・民族の概観",
+          "publicFile": "EP006/P02.webp",
+          "publicSha256": "917a9904c5c8347765835b675ddfbe328bea50a8840868c2a381a5fb5e6ac263",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "EP006/P03.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "バベルの出来事へ焦点を移しシンアルに住む人々",
+          "publicFile": "EP006/P03.webp",
+          "publicSha256": "867351ff7835427365976799a1fda0693ff49203baa5574456be12b3ad7878d8",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "EP006/P04.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "れんがと瀝青、町と塔を建てる提案",
+          "publicFile": "EP006/P04.webp",
+          "publicSha256": "675d545c747c0078701f1451da8aaac145b7280070263386d143fa07590c8f47",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "EP006/P05.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "建設中の町と塔の遠景",
+          "publicFile": "EP006/P05.webp",
+          "publicSha256": "4008d26d456d5f0b8b07817c290ac8df89f74aea452a3457bde9a1737a76249e",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "EP006/P06.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "尾なしの神の発話と建設現場",
+          "publicFile": "EP006/P06.webp",
+          "publicSha256": "d8e59c8e33c2add24f22384b1b51d62b5f5f1c27566a6682e8bb8a19850f449e",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P07",
+          "order": 7,
+          "localFile": "EP006/P07.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "言葉の混乱、散開、町の建設中止",
+          "publicFile": "EP006/P07.webp",
+          "publicSha256": "cbbaa04ba7c8f2ba892f8025441742ec786097c1d12f671de8c8ed8a3beb8cb6",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        },
+        {
+          "id": "P08",
+          "order": 8,
+          "localFile": "EP006/P08.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "バベルの名称説明と未完成の町を離れる人々",
+          "publicFile": "EP006/P08.webp",
+          "publicSha256": "5fa30bc48819865b53cdd4b21d9a6591938184fb9440765be1ecf6fe7bc9f8de",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-05"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-05"
+      }
     }
   ],
   "sources": [
@@ -1620,6 +1751,71 @@
         "P03の散水とP05の当てずっぽうは同じ場所・基準時点についての想像です。本筋の真相を変更する場面ではありません。P07の回想で見た雨と、それを聞いた報告は同じ基準時点の雨を対象にしています。",
         "P10の「出かける今」は新しい時点の確認です。その雨を見たことから、最初の時点でも知っていたと遡って証明するものではありません。",
         "認識論を情報源チェック術だけに限定せず、何を知識と呼べるかという問いの一つの入口として描いています。"
+      ]
+    },
+    {
+      "id": "EP006",
+      "original": "旧約聖書 創世記10:1〜32（選択要約）＋11:1〜9",
+      "ranges": [
+        {
+          "locator": "創世記10:1〜32",
+          "event": "三系統から続く氏族・言語・土地・民族の選択要約"
+        },
+        {
+          "locator": "創世記11:1〜2",
+          "event": "一つの言葉とシンアルへの移動・定住"
+        },
+        {
+          "locator": "創世記11:3〜4",
+          "event": "れんがと瀝青、町と塔、名を上げ散らされない目的"
+        },
+        {
+          "locator": "創世記11:5",
+          "event": "主が町と塔を見るために下る"
+        },
+        {
+          "locator": "創世記11:6〜7",
+          "event": "主の発言、言葉の混乱"
+        },
+        {
+          "locator": "創世記11:8〜9",
+          "event": "散開と町の建設中止、バベルの名称説明"
+        }
+      ],
+      "references": [
+        {
+          "title": "World English Bible Classic — Genesis 10",
+          "url": "https://ebible.org/eng-web/GEN10.htm",
+          "checked": "2026-10-03（制作側SOURCE_MAPの確認日）"
+        },
+        {
+          "title": "Mechon-Mamre 併記英訳 — Genesis 10",
+          "url": "https://mechon-mamre.org/p/pt/pt0110.htm",
+          "checked": "2026-10-03（制作側SOURCE_MAPの確認日）"
+        },
+        {
+          "title": "World English Bible Classic — Genesis 11",
+          "url": "https://ebible.org/eng-web/GEN11.htm",
+          "checked": "2026-10-03（制作側SOURCE_MAPの確認日）"
+        },
+        {
+          "title": "Mechon-Mamre 併記英訳 — Genesis 11",
+          "url": "https://mechon-mamre.org/p/pt/pt0111.htm",
+          "checked": "2026-10-03（制作側SOURCE_MAPの確認日）"
+        }
+      ],
+      "textNote": "本文は原典の出来事・発言内容を基に、漫画用に独自要約・再構成した日本語です。特定の現代日本語訳の転載ではありません。",
+      "notes": [
+        "創世記10章の系譜を選択要約し、氏族・言語・土地・民族という区分を残しています。子孫の人名をすべて本編に列挙したものではありません。",
+        "三系統の外見は漫画上の演出であり、現代の人種三分類や肌色の起源・民族の優劣を表していません。",
+        "ハムの子としてクシュ、ミツライム、プト、カナンが挙げられ、カナンからの氏族と領域も記されます（10:6、15〜19）。本編では詳しい列挙を省き、前話のノアの発言を外見や社会的上下の図にしていません。",
+        "10:8〜12にはニムロドの有力者・狩人としての記述とバベル等の町がありますが、11章の建設者は固有名で示されません。本作ではニムロドをバベルの塔の王・建設者として独自に確定していません。10:11の移動主体と10:12の町の照応も留保しています。",
+        "ペレグの時代に「地が分けられた」という記述（10:25）を、大陸移動・地殻変動やバベルの出来事と断定していません。",
+        "10章から11章は概観から個別の出来事への焦点転換です。「翌日」「時はさかのぼる」等の年代を断定せず、11:2の移動方向も固定していません。",
+        "11:5の「下った」はナレーションで示し、神の身体や顔を描いていません。11:7の「われわれ」を人数、三位一体、天使会議などとして図解していません。",
+        "言語混乱を身体や肌色の変化として描かず、11:8の町の建設中止と人々の散開を描いています。町と塔の崩壊・火災を加えていません。",
+        "バベルの名称と混乱の結び付き（11:9）は原典内の説明として扱い、現代言語学上の唯一の学術的語源とは断定していません。",
+        "人物の顔・服装、町・塔・足場の具体形状、風景、構図は漫画上の演出です。歴史建築の厳密な復元図ではありません。"
       ]
     }
   ]
