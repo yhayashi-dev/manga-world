@@ -983,11 +983,11 @@
       "description": "「雨だよ。知ってる。」から、信じていること・事実・根拠の違いを考えます。",
       "arc": "哲学",
       "productionStatus": "production_complete",
-      "publicationStatus": "ready",
-      "ready": true,
+      "publicationStatus": "published",
+      "ready": false,
       "publicApproved": true,
       "publishRequested": true,
-      "published": false,
+      "published": true,
       "sourceId": "PHILOSOPHY-KNOWLEDGE",
       "pages": [
         {
