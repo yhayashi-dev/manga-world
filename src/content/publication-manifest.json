@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "metadata": {
-    "updatedAt": "2026-10-10T15:05:41.106963+09:00"
+    "updatedAt": "2026-10-11T01:50:10.117515+09:00"
   },
   "episodeApprovals": [
     {
@@ -72,6 +72,13 @@
       "approval": {
         "by": "site-owner-delegated-review",
         "date": "2026-10-10"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
       }
     }
   ],
@@ -1214,6 +1221,156 @@
       "approval": {
         "by": "site-owner-delegated-review",
         "date": "2026-10-10"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P01",
+      "file": "PHILOSOPHY-ETHICS/P01.webp",
+      "sha256": "6d5af6a334f9abd159b3e395f95143fae52f66d79e595bb509de14b38e5c826a",
+      "pngSha256": "c863f2640e76d6ad3c1a44d6f95ccf09219ba578d90c16dff4504465c6e2bd11",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1478118,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P02",
+      "file": "PHILOSOPHY-ETHICS/P02.webp",
+      "sha256": "6b0fe402f992bf3f137eb06cc33dc31f9c93e082ff88d536cd742dd7b03d2fde",
+      "pngSha256": "6ddbb58980fbe627b03029b0f2bc8b21403b1dcdb18ca914b37b9d7fd00e73b2",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1508390,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P03",
+      "file": "PHILOSOPHY-ETHICS/P03.webp",
+      "sha256": "dd273fe2617466c7aa53faf865070704116691167716325f420c22e6349d8a57",
+      "pngSha256": "3ca11f560a186a3a8e818fe844db5f5750e700f9c6a6a2a4fafea965608db34c",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1509502,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P04",
+      "file": "PHILOSOPHY-ETHICS/P04.webp",
+      "sha256": "b1dca91794a53bc7c193a543948e40ad78e45b315d04190c041b65e09f574ba9",
+      "pngSha256": "5d4a69902e1e8f096e3de83001a71a9c95deb9df735a92dcc22eb467e1f0528a",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1486440,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P05",
+      "file": "PHILOSOPHY-ETHICS/P05.webp",
+      "sha256": "caf8ca0af3da0ca289bf0dce37cee8f0f705f7e92548945c1cc3e67c6c4ab8be",
+      "pngSha256": "6357af729d5c6bc7aa60135af26d0e553ec22526e5b5f31a41a2377d49caf0ad",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1545630,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P06",
+      "file": "PHILOSOPHY-ETHICS/P06.webp",
+      "sha256": "65ef7df815ffaf6697d856ac4e45366b1cdb39add368bd7cdb3887b5f7176bc5",
+      "pngSha256": "915d1d53f820e5c237c34dad489aaf3886676f57d7d0cb86c54f2cc7e81f2766",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1472322,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P07",
+      "file": "PHILOSOPHY-ETHICS/P07.webp",
+      "sha256": "465f57d33160e3463fd6d8eb90b732e6366b5e830f6e4eaab262bc21cba733a7",
+      "pngSha256": "761cec6de9b136bedda88bea30fe255da131eb078c7bc4e7fac386a3565523a1",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1476232,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P08",
+      "file": "PHILOSOPHY-ETHICS/P08.webp",
+      "sha256": "39ac40fe00c1b42c3dca6596c7bf55891151490162b0346cf9d5fb0e419d0d02",
+      "pngSha256": "499b1c87c8e4932527a205993dc072c59cc5fe121540c8ad8b04a2c1ced18e5a",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1451364,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P09",
+      "file": "PHILOSOPHY-ETHICS/P09.webp",
+      "sha256": "34f9776074761c83cbe7a531a1b13e0853e85affdf71f4209c8f9c7b545a10fc",
+      "pngSha256": "5496c25eee84255157fff30b5814e1054eb4ea2c240274dec873e978aaccba9f",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1583076,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-ETHICS",
+      "page": "P10",
+      "file": "PHILOSOPHY-ETHICS/P10.webp",
+      "sha256": "1e31e7b948c755f06e01939983b52ca72f104127587f805b402f64e2eecd8121",
+      "pngSha256": "7ba5a40b9001390f0dbb21ef60d17535bacd041bd63160bed883ea77a3f3e3e2",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1525078,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
       }
     }
   ]

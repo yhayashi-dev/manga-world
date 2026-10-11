@@ -95,6 +95,20 @@
         "認識論",
         "日常の判断"
       ]
+    },
+    {
+      "id": "philosophy-ethics",
+      "title": "正しい・間違っているって誰が決める？",
+      "collectionIds": [
+        "philosophy"
+      ],
+      "summary": "約束の時間と片付けの頼み。どうしてそう選ぶ？",
+      "description": "約束を守る理由、援助の利益、相手の事情や負担を比べ、連絡して援助範囲を決める過程を全10ページでたどります。倫理学の問いを日常の会話から考える入口です。",
+      "topics": [
+        "哲学",
+        "倫理学",
+        "日常の選択"
+      ]
     }
   ],
   "episodes": [
@@ -1355,6 +1369,165 @@
         "by": "site-owner-delegated-review",
         "date": "2026-10-10"
       }
+    },
+    {
+      "id": "PHILOSOPHY-ETHICS",
+      "workId": "philosophy-ethics",
+      "slug": "001",
+      "order": 1,
+      "title": "正しい・間違っているって誰が決める？",
+      "description": "決める人だけでなく、約束・援助・負担・相手の事情から選ぶ理由を考えます。",
+      "arc": "哲学",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "publishRequested": true,
+      "sourceId": "PHILOSOPHY-ETHICS",
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      },
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P01.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "約束17時と任意の片付け依頼が重なる",
+          "publicFile": "PHILOSOPHY-ETHICS/P01.webp",
+          "publicSha256": "6d5af6a334f9abd159b3e395f95143fae52f66d79e595bb509de14b38e5c826a",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P02.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "徒歩10分と無理しなくてよいという事情を確認する",
+          "publicFile": "PHILOSOPHY-ETHICS/P02.webp",
+          "publicSha256": "6b0fe402f992bf3f137eb06cc33dc31f9c93e082ff88d536cd742dd7b03d2fde",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P03.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "約束と相手の時間の理由を考える",
+          "publicFile": "PHILOSOPHY-ETHICS/P03.webp",
+          "publicSha256": "dd273fe2617466c7aa53faf865070704116691167716325f420c22e6349d8a57",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P04.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "援助の利益と待つ人の負担を比べる",
+          "publicFile": "PHILOSOPHY-ETHICS/P04.webp",
+          "publicSha256": "b1dca91794a53bc7c193a543948e40ad78e45b315d04190c041b65e09f574ba9",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P05.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "動かせない次の予定がある場合だけを想像する",
+          "publicFile": "PHILOSOPHY-ETHICS/P05.webp",
+          "publicSha256": "caf8ca0af3da0ca289bf0dce37cee8f0f705f7e92548945c1cc3e67c6c4ab8be",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P06.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "現実に戻り自分だけの例外にしていないか考える",
+          "publicFile": "PHILOSOPHY-ETHICS/P06.webp",
+          "publicSha256": "65ef7df815ffaf6697d856ac4e45366b1cdb39add368bd7cdb3887b5f7176bc5",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P07",
+          "order": 7,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P07.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "相手の予定を聞き援助範囲を決める案",
+          "publicFile": "PHILOSOPHY-ETHICS/P07.webp",
+          "publicSha256": "465f57d33160e3463fd6d8eb90b732e6366b5e830f6e4eaab262bc21cba733a7",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P08",
+          "order": 8,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P08.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "理由を比べることから倫理学の問いへ",
+          "publicFile": "PHILOSOPHY-ETHICS/P08.webp",
+          "publicSha256": "39ac40fe00c1b42c3dca6596c7bf55891151490162b0346cf9d5fb0e419d0d02",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P09",
+          "order": 9,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P09.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "電話で17時5分に変更合意後、椅子二脚を返す",
+          "publicFile": "PHILOSOPHY-ETHICS/P09.webp",
+          "publicSha256": "34f9776074761c83cbe7a531a1b13e0853e85affdf71f4209c8f9c7b545a10fc",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P10",
+          "order": 10,
+          "localFile": "PHILOSOPHY-ETHICS-V001/P10.png",
+          "width": 1024,
+          "height": 1536,
+          "alt": "16時55分に右扉から出発、女性のカップ作業が残る",
+          "publicFile": "PHILOSOPHY-ETHICS/P10.webp",
+          "publicSha256": "1e31e7b948c755f06e01939983b52ca72f104127587f805b402f64e2eecd8121",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        }
+      ]
     }
   ],
   "sources": [
@@ -1952,6 +2125,90 @@
         "一行はカナンを目指しますが、この話で住み着くのはハランです。四人を描くことは旅の総人数の断定ではありません。現代地図上の所在地や厳密な経路も確定していません。",
         "テラの総生涯205歳と次章の年齢を計算し、出生年や出発日程を独自に確定していません。創世記12章の召命やカナン到着は本話に含めません。",
         "外見、衣服、家屋、風景、時間帯は漫画上の演出であり、人種分類や考古学的復元ではありません。"
+      ]
+    },
+    {
+      "id": "PHILOSOPHY-ETHICS",
+      "original": "倫理学の問いを考えるための背景資料と創作の会話",
+      "ranges": [
+        {
+          "locator": "P01〜P04：約束と援助",
+          "event": "約束の時刻、相手の時間、援助で減る作業と待つ人の負担を比べます。"
+        },
+        {
+          "locator": "P05〜P06：事情と自己例外",
+          "event": "動かせない予定のある場合を想像し、現実ではまだ相手に聞いていないことを区別します。同じ事情の別の人にも言えるかを考えます。"
+        },
+        {
+          "locator": "P07〜P08：理由を比較する",
+          "event": "相手の予定を聞く案から、行為の正しさや理由を考える倫理学の問いへ進みます。"
+        },
+        {
+          "locator": "P09〜P10：合意と限定援助",
+          "event": "電話で新しい17:05を合意してから二脚だけを返し、16:55に出発します。女性の残作業や新しい約束への責任は残ります。"
+        }
+      ],
+      "references": [
+        {
+          "title": "A 一次資料：アリストテレス『ニコマコス倫理学』 — II.1–2, II.4, III.1–3",
+          "url": "https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "A 一次資料：同・第III巻 — III.1–3",
+          "url": "https://classics.mit.edu/Aristotle/nicomachaen.3.iii.html",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "A 一次資料：カント『道徳形而上学の基礎づけ』 — 第I節・第II節",
+          "url": "https://www.gutenberg.org/cache/epub/5682/pg5682-images.html",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "A 一次資料：J.S.ミル『功利主義』 — 第II章・第V章",
+          "url": "https://www.gutenberg.org/cache/epub/11224/pg11224-images.html",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "A 一次資料：ベンサム『道徳および立法の諸原理序説』 — 第I章 II–VI",
+          "url": "https://laits.utexas.edu/poltheory/bentham/ipml/ipml.c01.html",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "A 一次資料：同・第IV章 — II–VI",
+          "url": "https://laits.utexas.edu/poltheory/bentham/ipml/ipml.c04.html",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "B 学術資料：SEP Consequentialism — 概説・結果と効用の諸型",
+          "url": "https://plato.stanford.edu/entries/consequentialism/",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "B 学術資料：SEP Deontological Ethics — 概説・義務論の諸型",
+          "url": "https://plato.stanford.edu/entries/ethics-deontological/",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "B 学術資料：SEP Virtue Ethics — 概説・徳と実践知",
+          "url": "https://plato.stanford.edu/entries/ethics-virtue/",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        },
+        {
+          "title": "B 学術資料：SEP Moral Relativism — 記述的差異・メタ倫理・寛容の区別",
+          "url": "https://plato.stanford.edu/entries/moral-relativism/",
+          "checked": "制作時の出典確認記録（2026-10-06）を継承。版・範囲を明示"
+        }
+      ],
+      "textNote": "会話とナレーションは本作独自の現代日本語です。特定の現代日本語訳を転載した作品ではありません。",
+      "notes": [
+        "A＝一次資料、B＝学術的二次資料、C＝一般向け参考資料、D＝漫画上の説明・比喩・創作として区別しています。本作でCの採用はありません。",
+        "会話、人物、すずめ、部屋、時刻、片付け、電話、想像と結末はすべてDの創作です。哲学者本人の実会話や古典の逐語訳ではありません。",
+        "アリストテレスはW. D. Ross英訳、カントはThomas Kingsmill Abbott英訳、ミルとベンサムは英語本文を背景として参照しました。原語本文の独自校訂を実施したことにはしていません。",
+        "約束・援助の意図・相手への影響・事情・理由を比べる日常例です。特定の倫理理論を完全に説明する例ではなく、善意だけや人数の多さだけを正解の条件にしていません。",
+        "P05の動かせない17:05の予定は想像です。P09で今回の予定変更が可能と確認されるまで、相手の実際の予定を確定していません。",
+        "P06の「同じ事情の別の人でも」は、カントの普遍化テストを完全に再現する説明ではありません。P08は倫理学全体の定義や相対主義の決着ではありません。",
+        "電話の了解は約束変更の合意であり、道徳的正解の証明ではありません。最後にも片付けと責任が残り、到着・合流の結果は描いていません。"
       ]
     }
   ]
