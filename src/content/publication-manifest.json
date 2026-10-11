@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "metadata": {
-    "updatedAt": "2026-10-11T01:50:10.117515+09:00"
+    "updatedAt": "2026-10-11T22:55:37.989509+09:00"
   },
   "episodeApprovals": [
     {
@@ -76,6 +76,13 @@
     },
     {
       "episode": "PHILOSOPHY-ETHICS",
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "EP008",
       "approval": {
         "by": "site-owner-delegated-review",
         "date": "2026-10-11"
@@ -1367,6 +1374,96 @@
       "width": 1024,
       "height": 1536,
       "bytes": 1525078,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "EP008",
+      "page": "P01",
+      "file": "EP008/P01.webp",
+      "sha256": "3f7f7bf451ad4676b385a46711472a6fd5e6ada40b43f101c910102a1307bee5",
+      "pngSha256": "0a81cdd807813f9c933cc85ece2d4ee5bc139aa0b803056e03751de7e5e56216",
+      "width": 1054,
+      "height": 1492,
+      "bytes": 1809734,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "EP008",
+      "page": "P02",
+      "file": "EP008/P02.webp",
+      "sha256": "846724661e5e328b5b5ed8f4e07acb2a8a62f7e5cec2fa28fe68259537913f57",
+      "pngSha256": "58dbbb3ffd09fd12541cc7174ba1b683998f4a5f65083f4a7c23a64305be1902",
+      "width": 1054,
+      "height": 1492,
+      "bytes": 2040538,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "EP008",
+      "page": "P03",
+      "file": "EP008/P03.webp",
+      "sha256": "2cf5c5fea987e7107dc732742e393bf3e6a862d531eafd45bbf4c81e77d703fa",
+      "pngSha256": "8130961bc92fb78e2c8354e6c24dc5a8944e08edd11d468dcd1f8cbffbf1e696",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2121368,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "EP008",
+      "page": "P04",
+      "file": "EP008/P04.webp",
+      "sha256": "a1f3e31adca8c310c1fd9780f588816002074de0310c54909ff0a0f510d49ae3",
+      "pngSha256": "611a8a19a8116b0847f7e2b0370c57e9fb5c29f8d42a33ff23c477ec9f377698",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2410680,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "EP008",
+      "page": "P05",
+      "file": "EP008/P05.webp",
+      "sha256": "dc8773b141fb414420962532f16045c2502c3d1f7cd3957c9cd62d723ed111e0",
+      "pngSha256": "09c6accef100e8935e3ddb8eeea22e06cefb30a26426521f43b630eb62c41cae",
+      "width": 1054,
+      "height": 1492,
+      "bytes": 2195748,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "episode": "EP008",
+      "page": "P06",
+      "file": "EP008/P06.webp",
+      "sha256": "c833b6584aec8f526ff8392dce329fe913707618a8b38353426708905bfe79a3",
+      "pngSha256": "6cea48b381429aac1a351e77853cb4ef41d5fbfcf65e37b4279155b9b3559f39",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2315218,
       "losslessVerified": true,
       "approval": {
         "by": "site-owner-delegated-review",

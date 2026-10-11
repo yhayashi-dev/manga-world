@@ -1528,6 +1528,109 @@
           }
         }
       ]
+    },
+    {
+      "id": "EP008",
+      "workId": "old-testament",
+      "slug": "008",
+      "order": 8,
+      "title": "アブラムの旅立ち",
+      "description": "土地、親族、父の家を離れ、サライやロトたちとカナンへ。祝福の約束からネゲブへの旅をたどる。",
+      "arc": "創世記",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "publishRequested": true,
+      "sourceId": "EP008",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "EP008/P01.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "土地、親族、父の家を離れ、祝福の約束を受ける",
+          "publicFile": "EP008/P01.webp",
+          "publicSha256": "3f7f7bf451ad4676b385a46711472a6fd5e6ada40b43f101c910102a1307bee5",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "EP008/P02.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "全家族への祝福とアブラムの出発",
+          "publicFile": "EP008/P02.webp",
+          "publicSha256": "846724661e5e328b5b5ed8f4e07acb2a8a62f7e5cec2fa28fe68259537913f57",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "EP008/P03.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "サライ、ロト、財産、人々とハランを離れる",
+          "publicFile": "EP008/P03.webp",
+          "publicSha256": "2cf5c5fea987e7107dc732742e393bf3e6a862d531eafd45bbf4c81e77d703fa",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "EP008/P04.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "カナンに着き、シケムのモレの大木へ進む",
+          "publicFile": "EP008/P04.webp",
+          "publicSha256": "a1f3e31adca8c310c1fd9780f588816002074de0310c54909ff0a0f510d49ae3",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "EP008/P05.png",
+          "width": 1054,
+          "height": 1492,
+          "alt": "子孫への土地の約束と祭壇、山地の天幕",
+          "publicFile": "EP008/P05.webp",
+          "publicSha256": "dc8773b141fb414420962532f16045c2502c3d1f7cd3957c9cd62d723ed111e0",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "EP008/P06.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "主の名を呼び、南のネゲブへ旅を続ける",
+          "publicFile": "EP008/P06.webp",
+          "publicSha256": "c833b6584aec8f526ff8392dce329fe913707618a8b38353426708905bfe79a3",
+          "approval": {
+            "by": "site-owner-delegated-review",
+            "date": "2026-10-11"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner-delegated-review",
+        "date": "2026-10-11"
+      }
     }
   ],
   "sources": [
@@ -2209,6 +2312,51 @@
         "P05の動かせない17:05の予定は想像です。P09で今回の予定変更が可能と確認されるまで、相手の実際の予定を確定していません。",
         "P06の「同じ事情の別の人でも」は、カントの普遍化テストを完全に再現する説明ではありません。P08は倫理学全体の定義や相対主義の決着ではありません。",
         "電話の了解は約束変更の合意であり、道徳的正解の証明ではありません。最後にも片付けと責任が残り、到着・合流の結果は描いていません。"
+      ]
+    },
+    {
+      "id": "EP008",
+      "original": "旧約聖書 創世記12:1〜9",
+      "ranges": [
+        {
+          "locator": "創世記12:1〜3",
+          "event": "土地・親族・父の家を離れる呼びかけと祝福の約束"
+        },
+        {
+          "locator": "創世記12:4〜5",
+          "event": "75歳のアブラムがサライ、ロト、財産、人々と出発しカナンへ着く"
+        },
+        {
+          "locator": "創世記12:6〜7",
+          "event": "シケムのモレの大木、先住のカナン人、子孫への約束と祭壇"
+        },
+        {
+          "locator": "創世記12:8〜9",
+          "event": "ベテル東の山地、西ベテル・東アイ、天幕と祭壇、ネゲブへの旅"
+        }
+      ],
+      "references": [
+        {
+          "title": "World English Bible Classic — Genesis 12",
+          "url": "https://ebible.org/eng-web/GEN12.htm",
+          "checked": "2026-10-11（制作資料の確認日）"
+        },
+        {
+          "title": "Mechon-Mamre — Genesis 12",
+          "url": "https://mechon-mamre.org/p/pt/pt0112.htm",
+          "checked": "2026-10-11（制作資料の確認日）"
+        }
+      ],
+      "textNote": "創世記12:1〜9を、公刊英訳の内容を照合して独自の日本語に再構成しました。神の言葉も逐語引用ではありません。特定の現代日本語訳の転載ではありません。",
+      "notes": [
+        "顔、衣服、光、祭壇や天幕の形、細かな動作は漫画上の演出です。神の固定した人型・顔は描いていません。",
+        "前話からの時間間隔、正確な旅の経路や総人数、テラの死直後の召命という時系列は確定していません。",
+        "創世記12:3の表現には訳の幅があります。本稿はMechon-Mamre側の「呪う」を独自要約し、処罰の具体像は追加していません。",
+        "「ハランで得た人々」の具体的な身分・人数は確定せず、改宗者や奴隷の人数と断定していません。",
+        "「モレの大木」は樹種を限定せず、「ネゲブ」は南部の地域を指します。ベテルは西、アイは東という原典の方位を保持しています。",
+        "古代の叙述を、現代の民族の優劣や国境・戦争への命令として扱いません。",
+        "飢饉やエジプト滞在は創世記12:10以降で本話に含めません。改名、サライの妊娠、割礼も先取りしていません。",
+        "参照確認は章節対応の確認であり、原語の校訂、専門家による翻訳校閲、史実や考古学的復元の証明を行ったという意味ではありません。"
       ]
     }
   ]
