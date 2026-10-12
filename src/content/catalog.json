@@ -1631,6 +1631,109 @@
         "by": "site-owner-delegated-review",
         "date": "2026-10-11"
       }
+    },
+    {
+      "id": "EP009",
+      "workId": "old-testament",
+      "slug": "009",
+      "order": 9,
+      "title": "エジプトでの危機",
+      "description": "飢饉を逃れてエジプトへ。アブラムの恐れ、サライの危機、ファラオの問いと退出をたどる。",
+      "arc": "創世記",
+      "productionStatus": "production_complete",
+      "publicationStatus": "ready",
+      "publishRequested": true,
+      "sourceId": "EP009",
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "EP009/P01.png",
+          "width": 1055,
+          "height": 1491,
+          "alt": "飢饉によりエジプトへ向かい、サライへ話すアブラム",
+          "publicFile": "EP009/P01.webp",
+          "publicSha256": "7cedfdbd2b5348b6cc0118c25a7bf56b43b6c0a2a09d6104e55f03788c8f869f",
+          "approval": {
+            "by": "site-owner-publication-instruction",
+            "date": "2026-10-13"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "EP009/P02.png",
+          "width": 1084,
+          "height": 1451,
+          "alt": "自分の命を恐れ、妹だと話してほしいと頼むアブラム",
+          "publicFile": "EP009/P02.webp",
+          "publicSha256": "91cf6e6e5dc58d0f969e8f8fbf61d151f65cc464f13204c08c0a73d4aa38a5ed",
+          "approval": {
+            "by": "site-owner-publication-instruction",
+            "date": "2026-10-13"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "EP009/P03.png",
+          "width": 1084,
+          "height": 1451,
+          "alt": "サライがファラオの家へ連れて行かれ、よく扱われるアブラム",
+          "publicFile": "EP009/P03.webp",
+          "publicSha256": "65baecf35668fcd3188e5d74dfac17c556be15bf19dbabf99b160b4cd52e8379",
+          "approval": {
+            "by": "site-owner-publication-instruction",
+            "date": "2026-10-13"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "EP009/P04.png",
+          "width": 1084,
+          "height": 1451,
+          "alt": "アブラムの所有と奴隷、ファラオの家への災い",
+          "publicFile": "EP009/P04.webp",
+          "publicSha256": "c790b0602c013474f10d4aaeaeeff86039dae67ef10c57bf9c8fd7bac1d663b2",
+          "approval": {
+            "by": "site-owner-publication-instruction",
+            "date": "2026-10-13"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "EP009/P05.png",
+          "width": 1084,
+          "height": 1451,
+          "alt": "妻であることを隠した理由を問い、立ち去るよう命じるファラオ",
+          "publicFile": "EP009/P05.webp",
+          "publicSha256": "bb206160f6adc0784320ebb6d0fb932cb8dcaec7487dcc7c1dc904310f2f9618",
+          "approval": {
+            "by": "site-owner-publication-instruction",
+            "date": "2026-10-13"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "EP009/P06.png",
+          "width": 1084,
+          "height": 1451,
+          "alt": "妻と持ち物を伴ってエジプトを退出する一行",
+          "publicFile": "EP009/P06.webp",
+          "publicSha256": "17c9bd43233a38eb5fee644b708a4851cb21e8c7d972d52dd2bb642b6d0d6b4e",
+          "approval": {
+            "by": "site-owner-publication-instruction",
+            "date": "2026-10-13"
+          }
+        }
+      ],
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-13"
+      }
     }
   ],
   "sources": [
@@ -2357,6 +2460,59 @@
         "古代の叙述を、現代の民族の優劣や国境・戦争への命令として扱いません。",
         "飢饉やエジプト滞在は創世記12:10以降で本話に含めません。改名、サライの妊娠、割礼も先取りしていません。",
         "参照確認は章節対応の確認であり、原語の校訂、専門家による翻訳校閲、史実や考古学的復元の証明を行ったという意味ではありません。"
+      ]
+    },
+    {
+      "id": "EP009",
+      "original": "旧約聖書 創世記12:10〜20",
+      "ranges": [
+        {
+          "locator": "創世記12:10〜11",
+          "event": "飢饉、エジプトへの移動とサライへの発話"
+        },
+        {
+          "locator": "創世記12:12〜13",
+          "event": "アブラムの予想と妹だと伝えてほしいという依頼"
+        },
+        {
+          "locator": "創世記12:14〜16",
+          "event": "サライがファラオの家に迎えられ、アブラムがよく扱われる"
+        },
+        {
+          "locator": "創世記12:17",
+          "event": "サライのことによるファラオとその家への災い"
+        },
+        {
+          "locator": "創世記12:18〜19",
+          "event": "ファラオの問いと退出の命令"
+        },
+        {
+          "locator": "創世記12:20",
+          "event": "妻と持ち物を伴うエジプト退出"
+        }
+      ],
+      "references": [
+        {
+          "title": "Mechon-Mamre — Genesis 12（制作資料の照合原典）",
+          "url": "https://mechon-mamre.org/p/pt/pt0112.htm",
+          "checked": "2026-10-12（制作資料の確認日。本工程で再取得なし）"
+        },
+        {
+          "title": "Mechon-Mamre — Genesis 13:1（ロト同行の視覚補完）",
+          "url": "https://mechon-mamre.org/p/pt/pt0113.htm",
+          "checked": "2026-10-12（制作資料の確認日。本工程で再取得なし）"
+        }
+      ],
+      "textNote": "創世記12:10〜20を独自の日本語513字へ再構成しました。逐語引用・現代日本語訳転載はありません。",
+      "notes": [
+        "12:12はアブラムの予想であり、エジプト人が実際に殺した事実ではありません。",
+        "妹という発言を血縁の確定事実にせず、創世記20章の説明を混ぜません。サライの承諾・拒否・内心は創作していません。",
+        "奴隷制度は原典の存在として説明し、支持・礼賛や雇用への言い換えをしません。",
+        "災いの病名・死・出エジプトの十災を追加せず、サライが罰せられたという説明をしません。",
+        "婚姻への言及はファラオ自身の発話として保持し、婚礼・性行為・暴力を創作していません。",
+        "顔・衣服・宮殿・家畜の頭数は視覚補完です。具体王・王朝・年代や考古学的復元を確定していません。",
+        "ロト同行は創世記13:1を補助根拠とする視覚補完です。本話へ13章の帰還・祭壇・ロトとの分離を先取りしていません。",
+        "原語の校訂・専門家の翻訳校閲・史実の証明を行ったという意味ではありません。"
       ]
     }
   ]
