@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "metadata": {
-    "updatedAt": "2026-10-12T15:10:56.289908+00:00"
+    "updatedAt": "2026-10-14T16:51:57.293708+00:00"
   },
   "episodeApprovals": [
     {
@@ -93,6 +93,20 @@
       "approval": {
         "by": "site-owner-publication-instruction",
         "date": "2026-10-13"
+      }
+    },
+    {
+      "episode": "EP011",
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP012",
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
       }
     }
   ],
@@ -1565,6 +1579,186 @@
       "approval": {
         "by": "site-owner-publication-instruction",
         "date": "2026-10-13"
+      }
+    },
+    {
+      "episode": "EP011",
+      "page": "P01",
+      "file": "EP011/P01.webp",
+      "sha256": "09b2d0fd2b162cb509e8cce77fdf658af45a5c650a01ba3ba2acc954af5342db",
+      "pngSha256": "beb2ded0a2b66f3fb25ccbde7c9294d0183223b62c331585eea8abc75a43a357",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2059892,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP011",
+      "page": "P02",
+      "file": "EP011/P02.webp",
+      "sha256": "5eb6a6923e82f9ed773cc55bf56b94c0500a1670cdcebd41775743f39bc7b77f",
+      "pngSha256": "36ab7af3ef7485dc054e64e7dc689e65d1d1ea565bda375a8a84642c87c0dc64",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2127280,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP011",
+      "page": "P03",
+      "file": "EP011/P03.webp",
+      "sha256": "92729d482aa1911ea0c2b4d0bc51192d61fd2ba756a89ebc48d53e91e3f0c25f",
+      "pngSha256": "cda824be07d07633f847a20ff0162030961bb403b7b5934d70d218b0dfa9e750",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2017870,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP011",
+      "page": "P04",
+      "file": "EP011/P04.webp",
+      "sha256": "4aa576530d653a888b9d5d4efc9a2fec8040d69b869c2b0834ca8407b1d76987",
+      "pngSha256": "a08d232e0d049bea359b3c6d6bfdce7cbe33c2811c36ce415e79eab915cdff32",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2005436,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP011",
+      "page": "P05",
+      "file": "EP011/P05.webp",
+      "sha256": "e8812b04764b37696337320d7c73d055cb158db5d8a3f93278fa6e028a009f46",
+      "pngSha256": "92f998b5eeb4f521a5e2d303a4a9ffda520afbd46d0c490aaa1d8edd4518b819",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 1956676,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP011",
+      "page": "P06",
+      "file": "EP011/P06.webp",
+      "sha256": "0f3ee1f1a03ef9041ef6a00bdbe59ab9fa39bca7b89dfea5973c2d4ad053abc8",
+      "pngSha256": "3912bd87ea047b544a7c35bf4aa6bb92b6de9cb8e93732ff79843ed355a83c5d",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2101476,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP012",
+      "page": "P01",
+      "file": "EP012/P01.webp",
+      "sha256": "1d8df888a52c2b2baa1a19f12aff1110f9ac3ff565041b99b51b97e35cdaac4b",
+      "pngSha256": "49d1661c9cba4dfc0c294ef909eb869e2919aacd3b002452be1e3aa8614f5a0f",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 1640372,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP012",
+      "page": "P02",
+      "file": "EP012/P02.webp",
+      "sha256": "b8151fec4f10167bced7dcdc870eba7caffa32d7da01b9d27229a7b3807c0f51",
+      "pngSha256": "9fb4524fc454b988a51693b5bde593deb8268618d8cb128692e3ccb54f3f8b1d",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 1906442,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP012",
+      "page": "P03",
+      "file": "EP012/P03.webp",
+      "sha256": "6021bc23ea013695a4a864480292b8c844a1d6213f658b96d84f0192de60bab7",
+      "pngSha256": "063827dbad724e76522add6e37bf6b726dcaee9a288ffa9aaa5ec32c49f8798b",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 1979314,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP012",
+      "page": "P04",
+      "file": "EP012/P04.webp",
+      "sha256": "a04d26745fe674661c9f3416e7b00838e5d8724868c360baa92e4fbe36e75f5e",
+      "pngSha256": "ba94448952f26bc0c226d4941a7a2d51d620e583021e9e20544554dc1a5f0c40",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 1818728,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP012",
+      "page": "P05",
+      "file": "EP012/P05.webp",
+      "sha256": "75857c88f3caca1e94a30f8a237dce116f59f7b19e9c6bea88c1a1d3b0765153",
+      "pngSha256": "4ed4b5d748ad18f487736bd5a24d4eb3c6517ed7b439e94db42c17ddc5064f61",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 1729872,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
+      }
+    },
+    {
+      "episode": "EP012",
+      "page": "P06",
+      "file": "EP012/P06.webp",
+      "sha256": "5a656e96ac88e5acb6643d4051445cccbd9c1f45883c5d5a1ab6f43228540f47",
+      "pngSha256": "8081ed92655798145aaf847e8d09c731737ace8b0227c90e92c3c8c823d01722",
+      "width": 1055,
+      "height": 1491,
+      "bytes": 2180252,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner-publication-instruction",
+        "date": "2026-10-14"
       }
     }
   ]
