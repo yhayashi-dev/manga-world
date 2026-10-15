@@ -23,3 +23,6 @@
 /.github/workflows/*
 !/.github/workflows/pages.yml
 !/scripts/verify-production.ts
+
+!/static/
+!/scripts/analytics-config.mjs

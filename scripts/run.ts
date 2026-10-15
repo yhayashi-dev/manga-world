@@ -14,6 +14,7 @@ if(command==='dev')args.push('--host','127.0.0.1');
 const result=spawnSync(process.execPath,args,{stdio:'inherit',env:{...process.env,MANGA_BUILD_TARGET:target,ASTRO_TELEMETRY_DISABLED:'1'}});
 if(result.status!==0)process.exit(result.status??1);
 if(command==='build'){
+ if(target==='public'){const analytics=spawnSync(process.execPath,['scripts/analytics-config.mjs'],{stdio:'inherit',env:process.env});if(analytics.status!==0)process.exit(analytics.status??1);}
  const manifestLocal=target==='local'?JSON.parse(await readFile('private/import-manifest-remake-v001.json','utf8')):null;
  const allowed=target==='local'?data.episodes.flatMap(e=>e.pages.map(p=>({path:`comics/${e.id}/${p.id}.png`,sha256:manifestLocal.assets.find((a:any)=>a.copied_file===`private/local-assets/${p.localFile}`).sha256}))):verifyPublication(data.episodes,manifest).map(a=>({path:`comics/${a.file}`,sha256:a.sha256}));
  if(target==='local')allowed.push(...reviewAssets().map(a=>({path:`review-comics/${a.episode}/${a.page}.webp`,sha256:a.sha256})));
