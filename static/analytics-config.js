@@ -1,6 +1,6 @@
 window.SuzumeAnalyticsConfig = {
-  "enabled": false,
-  "measurementId": null,
+  "enabled": true,
+  "measurementId": "G-YRNBP3YGN7",
   "siteId": "learning-manga",
   "origin": "https://yhayashi-dev.github.io",
   "basePath": "/manga-world/",
