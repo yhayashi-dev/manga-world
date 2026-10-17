@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "metadata": {
-    "updatedAt": "2026-10-16T20:24:07.864225+00:00"
+    "updatedAt": "2026-10-17T16:04:37.162825+00:00"
   },
   "episodeApprovals": [
     {
@@ -135,6 +135,13 @@
       "approval": {
         "by": "site-owner-publication-instruction",
         "date": "2026-10-16"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
       }
     }
   ],
@@ -2147,6 +2154,156 @@
       "approval": {
         "by": "site-owner-publication-instruction",
         "date": "2026-10-16"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P01",
+      "file": "PHILOSOPHY-REALITY/P01.webp",
+      "sha256": "106a27a4d54bcff8df73eb82ab212a5208216bfce38e712952c687978b946b85",
+      "pngSha256": "19e9fda84983f535d9a2d082937b6a0d7236019bcf312885e0e8981c2b409483",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1440590,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P02",
+      "file": "PHILOSOPHY-REALITY/P02.webp",
+      "sha256": "efeca3d26f811e71bd40e44409b394a88c14b3962bbb812801dcb8e319e50252",
+      "pngSha256": "6050cbee530a4adffe462ab97a4ad1738504deb2a8e4415c0043fc6b0f6cafc5",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1427804,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P03",
+      "file": "PHILOSOPHY-REALITY/P03.webp",
+      "sha256": "24df921eab13c68b2173f2898cea006867459571c9b157493a89fa4254326383",
+      "pngSha256": "17aabd7f39dfe6d06d44c3ea7d1b82f29a109404e0517d0a6dbb023a188fa024",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1589394,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P04",
+      "file": "PHILOSOPHY-REALITY/P04.webp",
+      "sha256": "68683e7ae31c40f7561d00cac6ed10b2e3e9059219e91952941a4ab95c72896e",
+      "pngSha256": "e168f5b65a537c220c089b7ec49f13113d602ae5915c77e2e5c4b8e9e8a540d8",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1425166,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P05",
+      "file": "PHILOSOPHY-REALITY/P05.webp",
+      "sha256": "c6037f6c9e8ff166a8194ab55028d73de508efd3254008aedb89ff0dbadfb12f",
+      "pngSha256": "f423cfd57123847adbfa60b745272868c0c6d2f850acd520177ef748145c9d05",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1490928,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P06",
+      "file": "PHILOSOPHY-REALITY/P06.webp",
+      "sha256": "783914bbbb2e1fcd488b50684ad44ba2d2976e23013d1711c8a2dbdb6f23243a",
+      "pngSha256": "a8443cd8ec76c747bd49b0c21def32b69d596099cbbbbb650cff80c6b5b5c449",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1447936,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P07",
+      "file": "PHILOSOPHY-REALITY/P07.webp",
+      "sha256": "e83e79fbe3da1864e926bc16c96df93beb62cd164567ac66c1f017fc0a0f616b",
+      "pngSha256": "4629728f8d9761935c4c8c6bfb7d55b62e9801bb222abf7b5137d36e648e479a",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1528316,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P08",
+      "file": "PHILOSOPHY-REALITY/P08.webp",
+      "sha256": "18cf0adfca6f9a861fe8f54dda415ac8ad991765c2b7db76cd7d970c32bd2b0c",
+      "pngSha256": "bed2ea248fe68f92c649e2b87cd5850081741051f7490a3ec9ee3f1d7306d8a0",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1507380,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P09",
+      "file": "PHILOSOPHY-REALITY/P09.webp",
+      "sha256": "d4137adbe0c7f5f6ec93ba2a915f78c1b429b94008e6e5fececa9e08b899e1f0",
+      "pngSha256": "04714723a67151a6766be0a64fd55945e0e9cad40b421dd56deb76fb154fb31b",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1503406,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      }
+    },
+    {
+      "episode": "PHILOSOPHY-REALITY",
+      "page": "P10",
+      "file": "PHILOSOPHY-REALITY/P10.webp",
+      "sha256": "3b40cfa3f2f68369b20b6f229cf6ab4fe05801093da614f870820d178d3314d9",
+      "pngSha256": "ac82b9967a1003cc3225173bbdfe805f76d503cf91a22cf90390400d1e7604a0",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1572258,
+      "losslessVerified": true,
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
       }
     }
   ]

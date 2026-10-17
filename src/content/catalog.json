@@ -109,6 +109,20 @@
         "倫理学",
         "日常の選択"
       ]
+    },
+    {
+      "id": "philosophy-reality",
+      "title": "見えている世界は本当に現実？",
+      "collectionIds": [
+        "philosophy"
+      ],
+      "summary": "見えることと、確かめること。その違いを机の準備から考える。",
+      "description": "日常の机の準備を通して、いつも通りに見えることと、判断の理由を確かめることを全10ページで考えます。デカルト『省察』第一省察を背景にした現代の対話です。",
+      "topics": [
+        "哲学",
+        "認識論",
+        "日常の判断"
+      ]
     }
   ],
   "episodes": [
@@ -2415,6 +2429,165 @@
           }
         }
       ]
+    },
+    {
+      "id": "PHILOSOPHY-REALITY",
+      "workId": "philosophy-reality",
+      "slug": "001",
+      "order": 1,
+      "title": "見えている世界は本当に現実？",
+      "description": "見えることと、確かめること。その違いを机の準備から考える。",
+      "arc": "日常から考える哲学",
+      "productionStatus": "production_complete",
+      "publicationStatus": "published",
+      "publishRequested": true,
+      "sourceId": "PHILOSOPHY-REALITY",
+      "approval": {
+        "by": "site-owner",
+        "date": "2026-10-18"
+      },
+      "pages": [
+        {
+          "id": "P01",
+          "order": 1,
+          "localFile": "PHILOSOPHY-REALITY-V001/P01.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "見えている世界は本当に現実？ / ここ、作業できるようにしよう。 / 本と紙を寄せれば、場所が空くね。 / このノートは、こっちに置くね。",
+          "publicFile": "PHILOSOPHY-REALITY/P01.webp",
+          "publicSha256": "106a27a4d54bcff8df73eb82ab212a5208216bfce38e712952c687978b946b85",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P02",
+          "order": 2,
+          "localFile": "PHILOSOPHY-REALITY-V001/P02.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "紙もそろった。 / よし、準備できた。 / 広くなったね。",
+          "publicFile": "PHILOSOPHY-REALITY/P02.webp",
+          "publicSha256": "efeca3d26f811e71bd40e44409b394a88c14b3962bbb812801dcb8e319e50252",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P03",
+          "order": 3,
+          "localFile": "PHILOSOPHY-REALITY-V001/P03.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "ねえ、起きて。 / えっ……。片づけたはずなのに。 / 机で、うたた寝してたよ。 / さっきの、夢だったんだ。",
+          "publicFile": "PHILOSOPHY-REALITY/P03.webp",
+          "publicSha256": "24df921eab13c68b2173f2898cea006867459571c9b157493a89fa4254326383",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P04",
+          "order": 4,
+          "localFile": "PHILOSOPHY-REALITY-V001/P04.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "さっき見ていた夢 / 夢の中でも、いつも通りだと思ってた。 / いま / 今だって、いつも通りに見えるけど……。 / その感じだけで、夢じゃないって言えるかな。 / 何を手がかりにしているんだろう。",
+          "publicFile": "PHILOSOPHY-REALITY/P04.webp",
+          "publicSha256": "68683e7ae31c40f7561d00cac6ed10b2e3e9059219e91952941a4ab95c72896e",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P05",
+          "order": 5,
+          "localFile": "PHILOSOPHY-REALITY-V001/P05.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "デカルト『省察』第一省察 / デカルトも、『省察』で夢について考えたんだ。 / 夢でも、日常と同じように感じることがある。 / それなら、今は起きているという判断は、どこまで確かだろう。 / はっきり見える。それだけでは、決められないんだね。",
+          "publicFile": "PHILOSOPHY-REALITY/P05.webp",
+          "publicSha256": "c6037f6c9e8ff166a8194ab55028d73de508efd3254008aedb89ff0dbadfb12f",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P06",
+          "order": 6,
+          "localFile": "PHILOSOPHY-REALITY-V001/P06.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "じゃあ、この机も、本当はないの？ / 疑いが残ることと、ないと分かることは、違うよね。 / デカルトは、判断を保留して、確実と言えるかを調べたんだ。 / 夢の話だけで、何もかも偽だと決まったわけじゃない。 / 『省察』の検討は、この先も続く。",
+          "publicFile": "PHILOSOPHY-REALITY/P06.webp",
+          "publicSha256": "783914bbbb2e1fcd488b50684ad44ba2d2976e23013d1711c8a2dbdb6f23243a",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P07",
+          "order": 7,
+          "localFile": "PHILOSOPHY-REALITY-V001/P07.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "眠る前、本と紙をここに置いたのは覚えてる。 / 私が見ている間、本も紙も動いていなかったよ。 / 今の本と紙も、さっき見た場所にあるね。 / 準備はまだだって、今の机と話のつながりから考えてるんだ。",
+          "publicFile": "PHILOSOPHY-REALITY/P07.webp",
+          "publicSha256": "e83e79fbe3da1864e926bc16c96df93beb62cd164567ac66c1f017fc0a0f616b",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P08",
+          "order": 8,
+          "localFile": "PHILOSOPHY-REALITY-V001/P08.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "でも、その確かめ合いも、夢の中だったら？ / その疑いを、ここで全部なくせたとは言えないね。 / でも、理由を比べることまで、無意味になるのかな。 / 何となく済んだと思うのと、確かめて判断するのは違うね。",
+          "publicFile": "PHILOSOPHY-REALITY/P08.webp",
+          "publicSha256": "18cf0adfca6f9a861fe8f54dda415ac8ad991765c2b7db76cd7d970c32bd2b0c",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P09",
+          "order": 9,
+          "localFile": "PHILOSOPHY-REALITY-V001/P09.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "今は、準備がまだだと考える理由がある。 / じゃあ、まずこの本から。 / うん。ここに重ねよう。",
+          "publicFile": "PHILOSOPHY-REALITY/P09.webp",
+          "publicSha256": "d4137adbe0c7f5f6ec93ba2a915f78c1b429b94008e6e5fececa9e08b899e1f0",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        },
+        {
+          "id": "P10",
+          "order": 10,
+          "localFile": "PHILOSOPHY-REALITY-V001/P10.png",
+          "width": 1086,
+          "height": 1448,
+          "alt": "次は、この紙を。 / こっち、空けておくね。",
+          "publicFile": "PHILOSOPHY-REALITY/P10.webp",
+          "publicSha256": "3b40cfa3f2f68369b20b6f229cf6ab4fe05801093da614f870820d178d3314d9",
+          "approval": {
+            "by": "site-owner",
+            "date": "2026-10-18"
+          }
+        }
+      ]
     }
   ],
   "sources": [
@@ -3914,6 +4087,50 @@
         "正しい人50→45→40→30→20→10はすべて条件としての問いと返答。50から5足りないという問いを保持し、人数を実在確認/人身取引/多数決や神の無条件赦免へ変えない。50人の返答は町全体への扱いを明示。forgive/spareの表現差は町全体を滅ぼさないと要約した。",
         "塵と灰は本人のへりくだりの言葉で、身体消失の出来事ではない。怒らないでという願いと最後にするという発言を保持し、怒る神の顔/罰/街の破壊を補わない。",
         "主が去り、本人が自分の所へ帰るところで区切る。19章のロト、暴力、火災、妻の塩柱を先取りしない。現代の災害被害者の善悪や、人が一定数いればどんな災害も起きないという保証へ一般化しない。"
+      ]
+    },
+    {
+      "id": "PHILOSOPHY-REALITY",
+      "original": "デカルト『省察』第一省察を背景にした現代の創作対話",
+      "ranges": [
+        {
+          "locator": "P01〜P04：見えていることと判断",
+          "event": "机の準備と一度の目覚めを通して、いつも通りに感じることの確かさを問います。"
+        },
+        {
+          "locator": "P05〜P06：第一省察と判断保留",
+          "event": "夢の議論を短く紹介し、判断保留と不存在・偽の断定を分けます。"
+        },
+        {
+          "locator": "P07〜P08：記憶・観察と理由の比較",
+          "event": "見た範囲と記憶、今ある物を比べ、確かめ合いも夢だったらという疑いも残します。"
+        },
+        {
+          "locator": "P09〜P10：日常の判断と作業",
+          "event": "残る疑いを隠さず、いまの理由から机の準備を実際に始め、作業の途中で閉じます。"
+        }
+      ],
+      "references": [
+        {
+          "title": "A 一次資料：デカルト『省察』ラテン語公開転記 — 第一省察 AT VII 17–23（夢19）",
+          "url": "https://www.gutenberg.org/files/23306/23306-h/23306-h.htm",
+          "checked": "2026-10-17（採用台本の直接確認記録を継承）"
+        },
+        {
+          "title": "B 学術資料：Stanford Encyclopedia of Philosophy — Descartes’ Epistemology, §2.2/3.1–3.2/8",
+          "url": "https://plato.stanford.edu/entries/descartes-epistemology/",
+          "checked": "2026-10-17（採用台本の直接確認記録を継承）"
+        }
+      ],
+      "textNote": "全10頁38コマ676字の独自日本語対話です。現代日本語訳の転載や哲学者の実会話ではありません。",
+      "notes": [
+        "A＝一次資料、B＝学術的二次資料、D＝漫画上の会話・情景・比喩・創作。机、人物、すずめ、準備の用事と結末はDです。",
+        "P03で一度だけ目覚めを示し、P04の点線内枠だけが夢の回想です。P08は現在場面の仮定で、二度目の夢や覚醒は描きません。",
+        "P05〜P06は第一省察の夢の議論と判断保留を独自に要約しました。疑いがあることを世界の不存在や偽の確定と同一視しません。",
+        "夢だけで算術や『省察』全体を説明しません。第一省察の後にも検討が続きます。",
+        "P07〜P10の日常の判断と行動は、第六省察の神などを含む体系的な応答や外界の絶対保証を再現したものではありません。第二省察の自己存在の確かさも外界保証へ流用しません。",
+        "終わりは机の準備を実際に始めた途中です。行動したいから真という証明や、すべて片付いた完成を結論にしません。",
+        "原語の独自校訂や特定の現代日本語訳の逐語引用ではありません。公開転記の角括弧による頁番号とAT頁を混同しません。"
       ]
     }
   ]
